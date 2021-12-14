@@ -1,0 +1,16 @@
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\bin\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.exe
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\bin\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.deps.json
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\bin\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.runtimeconfig.json
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\bin\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.runtimeconfig.dev.json
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\bin\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.dll
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\bin\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.pdb
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.csproj.AssemblyReference.cache
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA_VestotoriiPrivamerii.Form1.resources
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.csproj.GenerateResource.cache
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.AssemblyInfoInputs.cache
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.AssemblyInfo.cs
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.csproj.CoreCompileInputs.cache
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.dll
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.pdb
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Debug\netcoreapp3.1\COBRA-VestotoriiPrivamerii.genruntimeconfig.cache
