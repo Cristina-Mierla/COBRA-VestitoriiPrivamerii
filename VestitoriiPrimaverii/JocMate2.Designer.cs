@@ -145,7 +145,7 @@ namespace VestitoriiPrimaverii
             this.pictureBox8.Location = new System.Drawing.Point(794, 508);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(420, 248);
+            this.pictureBox8.Size = new System.Drawing.Size(431, 264);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 21;
             this.pictureBox8.TabStop = false;

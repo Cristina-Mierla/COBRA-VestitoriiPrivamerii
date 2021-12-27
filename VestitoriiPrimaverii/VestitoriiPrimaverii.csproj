@@ -81,6 +81,9 @@
     <EmbeddedResource Include="JocMate2.resx">
       <DependentUpon>JocMate2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JocMate3.resx">
+      <DependentUpon>JocMate3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
