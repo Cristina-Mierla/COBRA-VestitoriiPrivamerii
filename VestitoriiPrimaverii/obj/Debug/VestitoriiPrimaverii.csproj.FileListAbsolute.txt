@@ -8,3 +8,9 @@ C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\
 C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.csproj.CoreCompileInputs.cache
 C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.exe
 C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.pdb
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\Interop.WMPLib.dll
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.csproj.ResolveComReference.cache
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.JocMate1.resources
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\bin\Debug\Interop.WMPLib.dll
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\bin\Debug\AxInterop.WMPLib.dll
