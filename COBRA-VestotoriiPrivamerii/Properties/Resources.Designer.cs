@@ -59,5 +59,15 @@ namespace COBRA_VestotoriiPrivamerii.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _762f2975792f3d9f7bf5cd1dc86aabd5 {
+            get {
+                object obj = ResourceManager.GetObject("_762f2975792f3d9f7bf5cd1dc86aabd5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
