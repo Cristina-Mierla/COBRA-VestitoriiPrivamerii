@@ -116,7 +116,7 @@ namespace VestitoriiPrimaverii
         {
             if (option == true)
             {
-                var next = new JocMate1();
+                var next = new JocMate2();
                 this.Hide();
                 next.Location = this.Location;
                 next.StartPosition = FormStartPosition.Manual;

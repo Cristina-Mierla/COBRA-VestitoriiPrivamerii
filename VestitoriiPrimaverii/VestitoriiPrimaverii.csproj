@@ -58,6 +58,18 @@
     <Compile Include="JocMate1.Designer.cs">
       <DependentUpon>JocMate1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JocMate2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocMate2.Designer.cs">
+      <DependentUpon>JocMate2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JocMate3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocMate3.Designer.cs">
+      <DependentUpon>JocMate3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocMate1.resx">
       <DependentUpon>JocMate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocMate2.resx">
+      <DependentUpon>JocMate2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
