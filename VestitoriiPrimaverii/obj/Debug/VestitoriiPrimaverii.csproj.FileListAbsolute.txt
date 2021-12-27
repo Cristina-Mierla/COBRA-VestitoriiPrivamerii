@@ -1,0 +1,10 @@
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\bin\Debug\VestitoriiPrimaverii.exe.config
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\bin\Debug\VestitoriiPrimaverii.exe
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\bin\Debug\VestitoriiPrimaverii.pdb
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.csproj.AssemblyReference.cache
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.Form1.resources
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.Properties.Resources.resources
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.csproj.GenerateResource.cache
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.csproj.CoreCompileInputs.cache
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.exe
+C:\Users\mierl\source\repos\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.pdb
