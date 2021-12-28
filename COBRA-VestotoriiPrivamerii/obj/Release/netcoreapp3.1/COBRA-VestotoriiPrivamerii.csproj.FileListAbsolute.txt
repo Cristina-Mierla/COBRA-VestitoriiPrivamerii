@@ -1,0 +1,7 @@
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA-VestotoriiPrivamerii.csproj.AssemblyReference.cache
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA_VestotoriiPrivamerii.Form1.resources
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA_VestotoriiPrivamerii.JocMate1.resources
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA_VestotoriiPrivamerii.JocMate2.resources
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA_VestotoriiPrivamerii.JocMate3.resources
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA_VestotoriiPrivamerii.Properties.Resources.resources
+C:\Users\Mociran\source\repos\COBRA-VestitoriiPrivamerii\COBRA-VestotoriiPrivamerii\obj\Release\netcoreapp3.1\COBRA-VestotoriiPrivamerii.csproj.GenerateResource.cache
