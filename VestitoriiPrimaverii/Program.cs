@@ -16,7 +16,7 @@ namespace VestitoriiPrimaverii
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JocMate1());
+            Application.Run(new JocMediuReguli());
         }
     }
 }
