@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>VestitoriiPrimaverii</RootNamespace>
     <AssemblyName>VestitoriiPrimaverii</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -70,6 +71,12 @@
     <Compile Include="JocMate3.Designer.cs">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </Compile>
+    <Compile Include="PovesteRo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PovesteRo.Designer.cs">
+      <DependentUpon>PovesteRo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -84,6 +91,9 @@
     <EmbeddedResource Include="JocMate3.resx">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PovesteRo.resx">
+      <DependentUpon>PovesteRo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +102,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
