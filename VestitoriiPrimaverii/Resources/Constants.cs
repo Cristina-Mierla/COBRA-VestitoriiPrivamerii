@@ -11,18 +11,25 @@ namespace VestitoriiPrimaverii.Resources
     static class Constants
     {
         //poveste mediu
-        public static string pathOmDeZapada = formAbsolutePath("Resources/povesteMediu/omul-de-zapada-cantec.mp4");
-        public static string pathGhiocel = formAbsolutePath("Resources/povesteMediu/ghiocel-poezie.mp4");
-        public static string pathPasariCalatoare = formAbsolutePath("Resources/povesteMediu/pasari-calatoare-poezie-scurta.mp4");
-        public static string pathPrmavaraSchimbari = formAbsolutePath("Resources/povesteMediu/primavara-schimbari.mp4");
+        public static string pathOmDeZapada = buildAbsolutePath(@"Resources\povesteMediu\omul-de-zapada-cantec.mp4");
+        public static string pathGhiocel = buildAbsolutePath(@"Resources\povesteMediu\ghiocel-poezie.mp4");
+        public static string pathPasariCalatoare = buildAbsolutePath(@"Resources\povesteMediu\pasari-calatoare-poezie-scurta.mp4");
+        public static string pathPrmavaraSchimbari = buildAbsolutePath(@"Resources\povesteMediu\primavara-schimbari.mp4");
 
         //poveste romana
-        public static string pathCantecVinePrimavara = formAbsolutePath("Resources/povesteRomana/cantecPovesteRomana.mp4");
+        public static string pathCantecVinePrimavara = buildAbsolutePath(@"Resources\povesteRomana\cantecPovesteRomana.mp4");
 
 
-        static string formAbsolutePath(string path)
+        static string buildAbsolutePath(string path)
         {
-            return Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), path);
+            string absolutePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string buildPath = "";
+            string[] pathList = absolutePath.Split('\\');
+            int i = 0;
+            while (!pathList[i].Equals("VestitoriiPrimaverii"))
+                buildPath += pathList[i++] + "\\";
+            buildPath += @"VestitoriiPrimaverii\";
+            return Path.Combine(buildPath, path);
         }
     }
 
