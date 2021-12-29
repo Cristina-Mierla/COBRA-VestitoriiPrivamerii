@@ -52,10 +52,10 @@ namespace COBRA_VestotoriiPrivamerii
             // SadLalea
             // 
             this.SadLalea.BackColor = System.Drawing.Color.Transparent;
-            this.SadLalea.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SadLalea.BackgroundImage")));
-            this.SadLalea.Location = new System.Drawing.Point(1045, 58);
+            this.SadLalea.Image = ((System.Drawing.Image)(resources.GetObject("SadLalea.Image")));
+            this.SadLalea.Location = new System.Drawing.Point(896, 50);
             this.SadLalea.Name = "SadLalea";
-            this.SadLalea.Size = new System.Drawing.Size(127, 130);
+            this.SadLalea.Size = new System.Drawing.Size(129, 131);
             this.SadLalea.TabIndex = 19;
             this.SadLalea.TabStop = false;
             this.SadLalea.Visible = false;
@@ -63,10 +63,10 @@ namespace COBRA_VestotoriiPrivamerii
             // SadZambila
             // 
             this.SadZambila.BackColor = System.Drawing.Color.Transparent;
-            this.SadZambila.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SadZambila.BackgroundImage")));
-            this.SadZambila.Location = new System.Drawing.Point(1045, 560);
+            this.SadZambila.Image = ((System.Drawing.Image)(resources.GetObject("SadZambila.Image")));
+            this.SadZambila.Location = new System.Drawing.Point(900, 555);
             this.SadZambila.Name = "SadZambila";
-            this.SadZambila.Size = new System.Drawing.Size(127, 130);
+            this.SadZambila.Size = new System.Drawing.Size(131, 133);
             this.SadZambila.TabIndex = 18;
             this.SadZambila.TabStop = false;
             this.SadZambila.Visible = false;
@@ -75,11 +75,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox4.Location = new System.Drawing.Point(699, 603);
+            this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.richTextBox4.Location = new System.Drawing.Point(603, 593);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(118, 62);
+            this.richTextBox4.Size = new System.Drawing.Size(123, 74);
             this.richTextBox4.TabIndex = 17;
             this.richTextBox4.Text = "Zambila";
             // 
@@ -87,11 +87,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox3.Location = new System.Drawing.Point(700, 336);
+            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.richTextBox3.Location = new System.Drawing.Point(600, 342);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(117, 62);
+            this.richTextBox3.Size = new System.Drawing.Size(136, 54);
             this.richTextBox3.TabIndex = 16;
             this.richTextBox3.Text = "Ghiocelul";
             // 
@@ -99,11 +99,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox2.BackColor = System.Drawing.SystemColors.Window;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox2.Location = new System.Drawing.Point(700, 94);
+            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.richTextBox2.Location = new System.Drawing.Point(600, 81);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(98, 62);
+            this.richTextBox2.Size = new System.Drawing.Size(115, 54);
             this.richTextBox2.TabIndex = 15;
             this.richTextBox2.Text = "Laleaua";
             this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
@@ -111,10 +111,10 @@ namespace COBRA_VestotoriiPrivamerii
             // Zambila
             // 
             this.Zambila.BackColor = System.Drawing.Color.Transparent;
-            this.Zambila.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Zambila.BackgroundImage")));
-            this.Zambila.Location = new System.Drawing.Point(851, 520);
+            this.Zambila.Image = ((System.Drawing.Image)(resources.GetObject("Zambila.Image")));
+            this.Zambila.Location = new System.Drawing.Point(733, 521);
             this.Zambila.Name = "Zambila";
-            this.Zambila.Size = new System.Drawing.Size(141, 202);
+            this.Zambila.Size = new System.Drawing.Size(143, 195);
             this.Zambila.TabIndex = 13;
             this.Zambila.TabStop = false;
             this.Zambila.Click += new System.EventHandler(this.Zambila_Click);
@@ -122,10 +122,10 @@ namespace COBRA_VestotoriiPrivamerii
             // Ghiocel
             // 
             this.Ghiocel.BackColor = System.Drawing.Color.Transparent;
-            this.Ghiocel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ghiocel.BackgroundImage")));
-            this.Ghiocel.Location = new System.Drawing.Point(823, 243);
+            this.Ghiocel.Image = ((System.Drawing.Image)(resources.GetObject("Ghiocel.Image")));
+            this.Ghiocel.Location = new System.Drawing.Point(742, 275);
             this.Ghiocel.Name = "Ghiocel";
-            this.Ghiocel.Size = new System.Drawing.Size(194, 235);
+            this.Ghiocel.Size = new System.Drawing.Size(166, 204);
             this.Ghiocel.TabIndex = 14;
             this.Ghiocel.TabStop = false;
             this.Ghiocel.Click += new System.EventHandler(this.Ghiocel_Click);
@@ -133,10 +133,10 @@ namespace COBRA_VestotoriiPrivamerii
             // Lalea
             // 
             this.Lalea.BackColor = System.Drawing.Color.Transparent;
-            this.Lalea.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Lalea.BackgroundImage")));
-            this.Lalea.Location = new System.Drawing.Point(841, 3);
+            this.Lalea.Image = ((System.Drawing.Image)(resources.GetObject("Lalea.Image")));
+            this.Lalea.Location = new System.Drawing.Point(721, 3);
             this.Lalea.Name = "Lalea";
-            this.Lalea.Size = new System.Drawing.Size(160, 224);
+            this.Lalea.Size = new System.Drawing.Size(155, 237);
             this.Lalea.TabIndex = 12;
             this.Lalea.TabStop = false;
             this.Lalea.Click += new System.EventHandler(this.Lalea_Click);
@@ -144,27 +144,27 @@ namespace COBRA_VestotoriiPrivamerii
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox1.Location = new System.Drawing.Point(137, 13);
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.richTextBox1.Location = new System.Drawing.Point(108, 31);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(206, 62);
+            this.richTextBox1.Size = new System.Drawing.Size(230, 54);
             this.richTextBox1.TabIndex = 11;
             this.richTextBox1.Text = "Sa auzim ghicitoarea Click pe mine";
             // 
             // ReadFairy
             // 
             this.ReadFairy.BackColor = System.Drawing.Color.Transparent;
-            this.ReadFairy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ReadFairy.BackgroundImage")));
-            this.ReadFairy.Location = new System.Drawing.Point(111, 81);
+            this.ReadFairy.Image = ((System.Drawing.Image)(resources.GetObject("ReadFairy.Image")));
+            this.ReadFairy.Location = new System.Drawing.Point(86, 90);
             this.ReadFairy.Name = "ReadFairy";
-            this.ReadFairy.Size = new System.Drawing.Size(252, 373);
+            this.ReadFairy.Size = new System.Drawing.Size(252, 367);
             this.ReadFairy.TabIndex = 10;
             this.ReadFairy.TabStop = false;
             this.ReadFairy.Click += new System.EventHandler(this.ReadFairy_Click);
             // 
             // JocRomana1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1184, 761);
