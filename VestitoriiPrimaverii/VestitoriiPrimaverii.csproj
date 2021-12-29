@@ -71,6 +71,30 @@
     <Compile Include="JocMate3.Designer.cs">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </Compile>
+    <Compile Include="JocMediu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocMediu1.Designer.cs">
+      <DependentUpon>JocMediu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JocMediu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocMediu2.Designer.cs">
+      <DependentUpon>JocMediu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JocMediu3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocMediu3.Designer.cs">
+      <DependentUpon>JocMediu3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JocMediuReguli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocMediuReguli.Designer.cs">
+      <DependentUpon>JocMediuReguli.cs</DependentUpon>
+    </Compile>
     <Compile Include="PovesteRo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +114,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocMate3.resx">
       <DependentUpon>JocMate3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocMediu1.resx">
+      <DependentUpon>JocMediu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocMediu2.resx">
+      <DependentUpon>JocMediu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocMediu3.resx">
+      <DependentUpon>JocMediu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocMediuReguli.resx">
+      <DependentUpon>JocMediuReguli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PovesteRo.resx">
       <DependentUpon>PovesteRo.cs</DependentUpon>
