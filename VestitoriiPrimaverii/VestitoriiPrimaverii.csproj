@@ -95,24 +95,6 @@
     <Compile Include="JocMediuReguli.Designer.cs">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocRomana0.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JocRomana0.Designer.cs">
-      <DependentUpon>JocRomana0.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JocRomana1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JocRomana1.Designer.cs">
-      <DependentUpon>JocRomana1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JocRomana2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JocRomana2.Designer.cs">
-      <DependentUpon>JocRomana2.cs</DependentUpon>
-    </Compile>
     <Compile Include="PovesteRo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,15 +126,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocMediuReguli.resx">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JocRomana0.resx">
-      <DependentUpon>JocRomana0.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JocRomana1.resx">
-      <DependentUpon>JocRomana1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JocRomana2.resx">
-      <DependentUpon>JocRomana2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PovesteRo.resx">
       <DependentUpon>PovesteRo.cs</DependentUpon>

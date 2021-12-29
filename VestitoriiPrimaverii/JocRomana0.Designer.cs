@@ -52,10 +52,10 @@ namespace COBRA_VestotoriiPrivamerii
             // ReadFairy
             // 
             this.ReadFairy.BackColor = System.Drawing.Color.Transparent;
-            this.ReadFairy.Image = ((System.Drawing.Image)(resources.GetObject("ReadFairy.Image")));
-            this.ReadFairy.Location = new System.Drawing.Point(93, 96);
+            this.ReadFairy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ReadFairy.BackgroundImage")));
+            this.ReadFairy.Location = new System.Drawing.Point(111, 80);
             this.ReadFairy.Name = "ReadFairy";
-            this.ReadFairy.Size = new System.Drawing.Size(255, 372);
+            this.ReadFairy.Size = new System.Drawing.Size(252, 373);
             this.ReadFairy.TabIndex = 0;
             this.ReadFairy.TabStop = false;
             this.ReadFairy.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -63,20 +63,20 @@ namespace COBRA_VestotoriiPrivamerii
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F);
-            this.richTextBox1.Location = new System.Drawing.Point(115, 37);
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(137, 12);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(219, 54);
+            this.richTextBox1.Size = new System.Drawing.Size(206, 62);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "Sa auzim ghicitoarea Click pe mine";
             // 
             // SpringFairy
             // 
             this.SpringFairy.BackColor = System.Drawing.Color.Transparent;
-            this.SpringFairy.Image = ((System.Drawing.Image)(resources.GetObject("SpringFairy.Image")));
-            this.SpringFairy.Location = new System.Drawing.Point(705, 10);
+            this.SpringFairy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpringFairy.BackgroundImage")));
+            this.SpringFairy.Location = new System.Drawing.Point(823, 12);
             this.SpringFairy.Name = "SpringFairy";
-            this.SpringFairy.Size = new System.Drawing.Size(166, 194);
+            this.SpringFairy.Size = new System.Drawing.Size(194, 204);
             this.SpringFairy.TabIndex = 2;
             this.SpringFairy.TabStop = false;
             this.SpringFairy.Click += new System.EventHandler(this.SpringFairy_Click);
@@ -84,10 +84,10 @@ namespace COBRA_VestotoriiPrivamerii
             // FallFairy
             // 
             this.FallFairy.BackColor = System.Drawing.Color.Transparent;
-            this.FallFairy.Image = ((System.Drawing.Image)(resources.GetObject("FallFairy.Image")));
-            this.FallFairy.Location = new System.Drawing.Point(704, 244);
+            this.FallFairy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FallFairy.BackgroundImage")));
+            this.FallFairy.Location = new System.Drawing.Point(823, 242);
             this.FallFairy.Name = "FallFairy";
-            this.FallFairy.Size = new System.Drawing.Size(166, 221);
+            this.FallFairy.Size = new System.Drawing.Size(194, 235);
             this.FallFairy.TabIndex = 3;
             this.FallFairy.TabStop = false;
             this.FallFairy.Click += new System.EventHandler(this.pictureBox3_Click);
@@ -95,10 +95,10 @@ namespace COBRA_VestotoriiPrivamerii
             // WinterFairy
             // 
             this.WinterFairy.BackColor = System.Drawing.Color.Transparent;
-            this.WinterFairy.Image = ((System.Drawing.Image)(resources.GetObject("WinterFairy.Image")));
-            this.WinterFairy.Location = new System.Drawing.Point(704, 513);
+            this.WinterFairy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WinterFairy.BackgroundImage")));
+            this.WinterFairy.Location = new System.Drawing.Point(823, 504);
             this.WinterFairy.Name = "WinterFairy";
-            this.WinterFairy.Size = new System.Drawing.Size(166, 226);
+            this.WinterFairy.Size = new System.Drawing.Size(194, 245);
             this.WinterFairy.TabIndex = 3;
             this.WinterFairy.TabStop = false;
             this.WinterFairy.Click += new System.EventHandler(this.WinterFairy_Click);
@@ -107,11 +107,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.White;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.richTextBox2.Location = new System.Drawing.Point(557, 81);
+            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox2.Location = new System.Drawing.Point(680, 93);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(143, 54);
+            this.richTextBox2.Size = new System.Drawing.Size(137, 62);
             this.richTextBox2.TabIndex = 4;
             this.richTextBox2.Text = "Primavara";
             this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
@@ -120,11 +120,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.richTextBox3.Location = new System.Drawing.Point(599, 324);
+            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox3.Location = new System.Drawing.Point(700, 335);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(100, 54);
+            this.richTextBox3.Size = new System.Drawing.Size(117, 62);
             this.richTextBox3.TabIndex = 5;
             this.richTextBox3.Text = "Toamna";
             this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
@@ -133,21 +133,21 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 20F);
-            this.richTextBox4.Location = new System.Drawing.Point(617, 599);
+            this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox4.Location = new System.Drawing.Point(721, 604);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(66, 54);
+            this.richTextBox4.Size = new System.Drawing.Size(77, 62);
             this.richTextBox4.TabIndex = 6;
             this.richTextBox4.Text = "Iarna";
             // 
             // SadWinter
             // 
             this.SadWinter.BackColor = System.Drawing.Color.Transparent;
-            this.SadWinter.Image = ((System.Drawing.Image)(resources.GetObject("SadWinter.Image")));
-            this.SadWinter.Location = new System.Drawing.Point(888, 548);
+            this.SadWinter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SadWinter.BackgroundImage")));
+            this.SadWinter.Location = new System.Drawing.Point(1045, 559);
             this.SadWinter.Name = "SadWinter";
-            this.SadWinter.Size = new System.Drawing.Size(132, 134);
+            this.SadWinter.Size = new System.Drawing.Size(127, 130);
             this.SadWinter.TabIndex = 7;
             this.SadWinter.TabStop = false;
             this.SadWinter.Visible = false;
@@ -155,17 +155,17 @@ namespace COBRA_VestotoriiPrivamerii
             // SadFall
             // 
             this.SadFall.BackColor = System.Drawing.Color.Transparent;
-            this.SadFall.Image = ((System.Drawing.Image)(resources.GetObject("SadFall.Image")));
-            this.SadFall.Location = new System.Drawing.Point(888, 283);
+            this.SadFall.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SadFall.BackgroundImage")));
+            this.SadFall.Location = new System.Drawing.Point(1045, 302);
             this.SadFall.Name = "SadFall";
-            this.SadFall.Size = new System.Drawing.Size(132, 130);
+            this.SadFall.Size = new System.Drawing.Size(127, 130);
             this.SadFall.TabIndex = 9;
             this.SadFall.TabStop = false;
             this.SadFall.Visible = false;
             // 
             // JocRomana0
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1184, 761);

@@ -1,64 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
+﻿<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -121,10 +61,10 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SadBarza.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SadBarza.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIIAAACDCAYAAABBX8NYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAiwxJREFUeF7tvXdgVNXaNX7SK10FCyo2pAgKKCqICAp27L33hr13LChWitJ77733
+        DAAACwwBP0AiyAAAiwxJREFUeF7tvXdgVNXaNX7SK10FCyo2pAgKKCqICAp27L33hr13LChWitJ77733
         kJCQkATS+/SSSTLJJJne1m89Z0DBi169977fd7/f6x9PZjLlzDn7WXs9a+2zzz4K0Pg/FE0KQo5jolkJ
         hZsUD+qVFtgUX9imhAJ2xR1sUrxBuxJEneILNSh+P//3W5VgyHZkO3YljAYlJNs7EmG+HuJrQdRHBWCN
         DvO78n4I9dEIWxVP2K3UhqC4Aq38fCApDHQON0xWQp6ibs22zK4+8/uxAKIRDCse7lsgbOfnamP9rurv
@@ -720,10 +660,10 @@
         f7CCzwv5OUmyQQnR4vp8AkABAveP+/r/PhAcyv8H9WXjpq3BrAcAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="SadVrabie.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SadVrabie.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIIAAACDCAYAAABBX8NYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAiwxJREFUeF7tvXdgVNXaNX7SK10FCyo2pAgKKCqICAp27L33hr13LChWitJ77733
+        DAAACwwBP0AiyAAAiwxJREFUeF7tvXdgVNXaNX7SK10FCyo2pAgKKCqICAp27L33hr13LChWitJ77733
         kJCQkATS+/SSSTLJJJne1m89Z0DBi169977fd7/f6x9PZjLlzDn7WXs9a+2zzz4K0Pg/FE0KQo5jolkJ
         hZsUD+qVFtgUX9imhAJ2xR1sUrxBuxJEneILNSh+P//3W5VgyHZkO3YljAYlJNs7EmG+HuJrQdRHBWCN
         DvO78n4I9dEIWxVP2K3UhqC4Aq38fCApDHQON0xWQp6ibs22zK4+8/uxAKIRDCse7lsgbOfnamP9rurv
@@ -1319,10 +1259,10 @@
         f7CCzwv5OUmyQQnR4vp8AkABAveP+/r/PhAcyv8H9WXjpq3BrAcAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Randunica.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Randunica.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAACwCAYAAACxftTtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAu
-        IwAALiMBeKU/dgAAckBJREFUeF7tvQl4FFd26F/ePYs9u9m07wuSkNC+bwgECBAgVjGsQSiYYB44Jtix
+        IgAALiIBquLdkgAAckBJREFUeF7tvQl4FFd26F/ePYs9u9m07wuSkNC+bwgECBAgVjGsQSiYYB44Jtix
         nz0eCI5jx8+E58DzwBAewSEQwh9CIDw8EALBBGKb2CaYHcSOzWKzm/qf37191d3VLZCwAOFRf9/5uru6
         urq67u+ce865596ybNtulVb5vRO/G1ulVb7r4rPhtdde8ysvv/yytXHjRuvw4cPWtm3brC+//NJLzpw5
         Y33++efWZ599Zu3atatJwnf27NljHTt27LaE3960aZM1duwYa/z48fe1DBtW3Xv27Nm9d+zY/uT27dvk
@@ -1813,10 +1753,10 @@
         YII=
 </value>
   </data>
-  <data name="Vrabie.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Vrabie.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAACzCAYAAAA36qZDAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAyUBJREFUeF7sfQV4Vcf2/SDB3eOO1Y3SllKkLa5FixR3LxR3d3cnnhASYhBXQkiw
+        EQAACxEBf2RfkQAAyUBJREFUeF7sfQV4Vcf2/SDB3eOO1Y3SllKkLa5FixR3LxR3d3cnnhASYhBXQkiw
         IEEDhLi7y/rvPefeEGj6XtvX9r3+/uVjfedcv7lnzZq198zsEchP/wf/TRRk0DFTFKW+FIkPr4n4+/4i
         NtxPFKREibiIq+KW6ykRExEsHl91FECuiAy5LB4G+YhwPzcRevGwuOF4XNy6bCae3/YQ8c9DReStABF3
         K0Q8DnYVL257iTsBruLJlUDxKNhX5Geli20zu7U6uLTXZ9ccjw5x2LdontfZLQftt885bbthgpX16mGO
@@ -2678,10 +2618,10 @@
         8vYAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Barza.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Barza.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL4AAACPCAYAAABEUmGVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAb/5JREFUeF7tXQV4VMnSrf/ts32y9tYVFofF3W1Z3F2DE0gg7u7u7u7u7u7uShJC
+        EQAACxEBf2RfkQAAb/5JREFUeF7tXQV4VMnSrf/ts32y9tYVFofF3W1Z3F2DE0gg7u7u7u7u7u7uShJC
         IAR3q7+rQ3iBDSy2+tLfd77JTGbu3Ln3dPWp6upq6KwpfyF01VVCa3kRtJQVwrn6KvZaxf8AyuBiSz20
         19eAj7H+++7qSu+VR/hDZXoSZMTHQ21hPpyro/cNfM1+LXQ3VENtfg6UZqbBpTOnIcHHA9yM9OHC6cZH
         927gz/3WcaWzDdJdbcFZWQ7Ky+rAV3Mf2B38CnwVloK33GLwkV8KbmJTwUN8JrRWlUCUhyeoLZ4KTvKS
@@ -3162,10 +3102,10 @@
         /lr4f+o7MRwAEnpqAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="ReadFairy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ReadFairy.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAFwCAYAAACRsGY3AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAA/7JJREFUeF7sfQd8VNeV99vspm6y+bLpcTabZid2nLg77sa9G9v0DgKBeu+99957
+        DAAACwwBP0AiyAAA/7JJREFUeF7sfQd8VNeV99vspm6y+bLpcTabZid2nLg77sa9G9v0DgKBeu+99957
         70K9V1AFCQQCCRCIokJTFwjRpf93zp038iAPprh8ST7uj8OMZt68cu/5n3bPPVcCcI/u0T36Fye1H96j
         e3SP/rVI7Yf36B7do38tUvvhPbpH9+hfi+bejI+Pq6Vz585Jw8PD0uHDh6XImChJ20D3m64e7m9pb9Gy
         t7GwTgz2Cyxyc3Ap93ByK4kICttqbW4Z+9EHH7r4+fnpLFqy+F1zK4sHDUwMv+UX5C+VV1VIWTlZUlZ2
