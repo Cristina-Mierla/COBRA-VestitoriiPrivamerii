@@ -53,46 +53,64 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMate1.cs">
+    <Compile Include="jocMate\JocMate1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMate1.Designer.cs">
+    <Compile Include="jocMate\JocMate1.Designer.cs">
       <DependentUpon>JocMate1.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMate2.cs">
+    <Compile Include="jocMate\JocMate2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMate2.Designer.cs">
+    <Compile Include="jocMate\JocMate2.Designer.cs">
       <DependentUpon>JocMate2.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMate3.cs">
+    <Compile Include="jocMate\JocMate3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMate3.Designer.cs">
+    <Compile Include="jocMate\JocMate3.Designer.cs">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMediu1.cs">
+    <Compile Include="povesteMediu\PovesteMediu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMediu1.Designer.cs">
+    <Compile Include="povesteMediu\PovesteMediu.Designer.cs">
+      <DependentUpon>PovesteMediu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="povesteMediu\PovesteMediuVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="povesteMediu\PovesteMediuVideo.Designer.cs">
+      <DependentUpon>PovesteMediuVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="povesteMediu\PovesteTerminata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="povesteMediu\PovesteTerminata.Designer.cs">
+      <DependentUpon>PovesteTerminata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jocMediu\JocMediu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jocMediu\JocMediu1.Designer.cs">
       <DependentUpon>JocMediu1.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMediu2.cs">
+    <Compile Include="jocMediu\JocMediu2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMediu2.Designer.cs">
+    <Compile Include="jocMediu\JocMediu2.Designer.cs">
       <DependentUpon>JocMediu2.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMediu3.cs">
+    <Compile Include="jocMediu\JocMediu3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMediu3.Designer.cs">
+    <Compile Include="jocMediu\JocMediu3.Designer.cs">
       <DependentUpon>JocMediu3.cs</DependentUpon>
     </Compile>
-    <Compile Include="JocMediuReguli.cs">
+    <Compile Include="jocMediu\JocMediuReguli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JocMediuReguli.Designer.cs">
+    <Compile Include="jocMediu\JocMediuReguli.Designer.cs">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
     </Compile>
     <Compile Include="JocRomana0.cs">
@@ -121,28 +139,43 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Constants.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMate1.resx">
+    <EmbeddedResource Include="jocMate\JocMate1.resx">
       <DependentUpon>JocMate1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMate2.resx">
+    <EmbeddedResource Include="jocMate\JocMate2.resx">
       <DependentUpon>JocMate2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMate3.resx">
+    <EmbeddedResource Include="jocMate\JocMate3.resx">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMediu1.resx">
+    <EmbeddedResource Include="povesteMediu\PovesteMediu.resx">
+      <DependentUpon>PovesteMediu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="povesteMediu\PovesteMediuVideo.resx">
+      <DependentUpon>PovesteMediuVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="povesteMediu\PovesteTerminata.resx">
+      <DependentUpon>PovesteTerminata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jocMediu\JocMediu1.resx">
       <DependentUpon>JocMediu1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMediu2.resx">
+    <EmbeddedResource Include="jocMediu\JocMediu2.resx">
       <DependentUpon>JocMediu2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMediu3.resx">
+    <EmbeddedResource Include="jocMediu\JocMediu3.resx">
       <DependentUpon>JocMediu3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JocMediuReguli.resx">
+    <EmbeddedResource Include="jocMediu\JocMediuReguli.resx">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JocRomana0.resx">
@@ -159,14 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -199,5 +227,21 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seTopesteZapada.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowmansaysbye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primavaraVietati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasariCalatoare.gif" />
+    <None Include="Resources\frame.png" />
+    <None Include="Resources\felicitari-excited.gif" />
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
