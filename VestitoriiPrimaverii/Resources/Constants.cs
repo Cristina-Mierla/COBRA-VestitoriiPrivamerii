@@ -16,8 +16,10 @@ namespace VestitoriiPrimaverii.Resources
         public static string pathPasariCalatoare = formAbsolutePath("Resources/povesteMediu/pasari-calatoare-poezie-scurta.mp4");
         public static string pathPrmavaraSchimbari = formAbsolutePath("Resources/povesteMediu/primavara-schimbari.mp4");
 
-        //poveste mate...
-    
+        //poveste romana
+        public static string pathCantecVinePrimavara = formAbsolutePath("Resources/povesteRomana/cantecPovesteRomana.mp4");
+
+
         static string formAbsolutePath(string path)
         {
             return Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), path);
