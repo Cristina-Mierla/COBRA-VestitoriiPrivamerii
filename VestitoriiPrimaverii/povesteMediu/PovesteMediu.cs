@@ -19,43 +19,37 @@ namespace VestitoriiPrimaverii
         public PovesteMediu()
         {
             InitializeComponent();
-
         }
 
         private void pictureOmZapada_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(Constants.pathOmDeZapada);
-            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(Constants.pathOmDeZapada);
+            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(this, Constants.pathOmDeZapada);
             povesteMediuVideo.Show();
             pictureFrameOmZapada.Hide();
-            checkIfFinished(povesteMediuVideo);
         }
 
         private void pictureGhiocel_Click(object sender, EventArgs e)
         {
-            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(Constants.pathGhiocel);
+            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(this, Constants.pathGhiocel);
             povesteMediuVideo.Show();
             pictureFrameGhiocel.Hide();
-            checkIfFinished(povesteMediuVideo);
         }
 
         private void picturePasariCalatoare_Click(object sender, EventArgs e)
         {
-            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(Constants.pathPasariCalatoare);
+            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(this, Constants.pathPasariCalatoare);
             povesteMediuVideo.Show();
             pictureFramePasariCalatoare.Hide();
-            checkIfFinished(povesteMediuVideo);
         }
 
         private void picturePrimavaraSchimbari_Click(object sender, EventArgs e)
         {
-            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(Constants.pathPrmavaraSchimbari);
+            PovesteMediuVideo povesteMediuVideo = new PovesteMediuVideo(this, Constants.pathPrmavaraSchimbari);
             povesteMediuVideo.Show();
             pictureFramePrimavaraSchimbari.Hide();
-            checkIfFinished(povesteMediuVideo);
         }
 
-        private void checkIfFinished(PovesteMediuVideo povesteMediuVideo)
+        public void checkIfFinished()
         {
             if (pictureFrameOmZapada.Visible == false && pictureFrameGhiocel.Visible == false && pictureFramePasariCalatoare.Visible == false && pictureFramePrimavaraSchimbari.Visible == false)
             {
@@ -63,7 +57,6 @@ namespace VestitoriiPrimaverii
                 povesteTerminata.Show();
                 this.Hide();
             }
-
         }
     }
 }

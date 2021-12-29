@@ -77,6 +77,7 @@
             this.Controls.Add(this.pictureBox2);
             this.DoubleBuffered = true;
             this.Name = "PovesteTerminata";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PovesteTerminata";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

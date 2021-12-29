@@ -152,6 +152,7 @@
             this.Controls.Add(this.pictureFramePasariCalatoare);
             this.DoubleBuffered = true;
             this.Name = "PovesteMediu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PovesteMediu";
             ((System.ComponentModel.ISupportInitialize)(this.picturePrimavaraSchimbari)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePasariCalatoare)).EndInit();
