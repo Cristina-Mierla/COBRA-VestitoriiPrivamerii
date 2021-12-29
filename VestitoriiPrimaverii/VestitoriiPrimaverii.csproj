@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>VestitoriiPrimaverii</RootNamespace>
     <AssemblyName>VestitoriiPrimaverii</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -93,6 +94,11 @@
     </Compile>
     <Compile Include="JocMediuReguli.Designer.cs">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
+    <Compile Include="PovesteRo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PovesteRo.Designer.cs">
+      <DependentUpon>PovesteRo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -119,6 +125,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocMediuReguli.resx">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
+    <EmbeddedResource Include="PovesteRo.resx">
+      <DependentUpon>PovesteRo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
