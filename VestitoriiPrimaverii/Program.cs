@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using COBRA_VestotoriiPrivamerii;
 
 namespace VestitoriiPrimaverii
 {
@@ -16,7 +17,7 @@ namespace VestitoriiPrimaverii
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JocMediuReguli());
+            Application.Run(new JocRomana0());
         }
     }
 }

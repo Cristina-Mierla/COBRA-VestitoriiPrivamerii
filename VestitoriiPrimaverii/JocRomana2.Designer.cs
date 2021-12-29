@@ -53,21 +53,21 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox2.BackColor = System.Drawing.SystemColors.Window;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox2.Location = new System.Drawing.Point(700, 118);
+            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.richTextBox2.Location = new System.Drawing.Point(600, 102);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(98, 62);
+            this.richTextBox2.Size = new System.Drawing.Size(84, 54);
             this.richTextBox2.TabIndex = 25;
             this.richTextBox2.Text = "Barza";
             // 
             // SadBarza
             // 
             this.SadBarza.BackColor = System.Drawing.Color.Transparent;
-            this.SadBarza.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SadBarza.BackgroundImage")));
-            this.SadBarza.Location = new System.Drawing.Point(1045, 90);
+            this.SadBarza.Image = ((System.Drawing.Image)(resources.GetObject("SadBarza.Image")));
+            this.SadBarza.Location = new System.Drawing.Point(917, 78);
             this.SadBarza.Name = "SadBarza";
-            this.SadBarza.Size = new System.Drawing.Size(127, 130);
+            this.SadBarza.Size = new System.Drawing.Size(132, 130);
             this.SadBarza.TabIndex = 29;
             this.SadBarza.TabStop = false;
             this.SadBarza.Visible = false;
@@ -75,10 +75,10 @@ namespace COBRA_VestotoriiPrivamerii
             // SadVrabie
             // 
             this.SadVrabie.BackColor = System.Drawing.Color.Transparent;
-            this.SadVrabie.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SadVrabie.BackgroundImage")));
-            this.SadVrabie.Location = new System.Drawing.Point(1045, 319);
+            this.SadVrabie.Image = ((System.Drawing.Image)(resources.GetObject("SadVrabie.Image")));
+            this.SadVrabie.Location = new System.Drawing.Point(919, 288);
             this.SadVrabie.Name = "SadVrabie";
-            this.SadVrabie.Size = new System.Drawing.Size(127, 130);
+            this.SadVrabie.Size = new System.Drawing.Size(130, 129);
             this.SadVrabie.TabIndex = 28;
             this.SadVrabie.TabStop = false;
             this.SadVrabie.Visible = false;
@@ -87,11 +87,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox4.Location = new System.Drawing.Point(672, 578);
+            this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.richTextBox4.Location = new System.Drawing.Point(560, 537);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(145, 62);
+            this.richTextBox4.Size = new System.Drawing.Size(140, 54);
             this.richTextBox4.TabIndex = 27;
             this.richTextBox4.Text = "Randunica";
             // 
@@ -99,11 +99,11 @@ namespace COBRA_VestotoriiPrivamerii
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox3.Location = new System.Drawing.Point(700, 360);
+            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.richTextBox3.Location = new System.Drawing.Point(600, 312);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(117, 62);
+            this.richTextBox3.Size = new System.Drawing.Size(100, 54);
             this.richTextBox3.TabIndex = 26;
             this.richTextBox3.Text = "Vrabia";
             this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
@@ -111,10 +111,10 @@ namespace COBRA_VestotoriiPrivamerii
             // Randunica
             // 
             this.Randunica.BackColor = System.Drawing.Color.Transparent;
-            this.Randunica.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Randunica.BackgroundImage")));
-            this.Randunica.Location = new System.Drawing.Point(841, 523);
+            this.Randunica.Image = ((System.Drawing.Image)(resources.GetObject("Randunica.Image")));
+            this.Randunica.Location = new System.Drawing.Point(705, 489);
             this.Randunica.Name = "Randunica";
-            this.Randunica.Size = new System.Drawing.Size(187, 175);
+            this.Randunica.Size = new System.Drawing.Size(185, 178);
             this.Randunica.TabIndex = 23;
             this.Randunica.TabStop = false;
             this.Randunica.Click += new System.EventHandler(this.Randunica_Click);
@@ -122,10 +122,10 @@ namespace COBRA_VestotoriiPrivamerii
             // Vrabie
             // 
             this.Vrabie.BackColor = System.Drawing.Color.Transparent;
-            this.Vrabie.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Vrabie.BackgroundImage")));
-            this.Vrabie.Location = new System.Drawing.Point(823, 293);
+            this.Vrabie.Image = ((System.Drawing.Image)(resources.GetObject("Vrabie.Image")));
+            this.Vrabie.Location = new System.Drawing.Point(705, 254);
             this.Vrabie.Name = "Vrabie";
-            this.Vrabie.Size = new System.Drawing.Size(191, 180);
+            this.Vrabie.Size = new System.Drawing.Size(193, 178);
             this.Vrabie.TabIndex = 24;
             this.Vrabie.TabStop = false;
             this.Vrabie.Click += new System.EventHandler(this.Vrabie_Click);
@@ -133,10 +133,10 @@ namespace COBRA_VestotoriiPrivamerii
             // Barza
             // 
             this.Barza.BackColor = System.Drawing.Color.Transparent;
-            this.Barza.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Barza.BackgroundImage")));
-            this.Barza.Location = new System.Drawing.Point(823, 76);
+            this.Barza.Image = ((System.Drawing.Image)(resources.GetObject("Barza.Image")));
+            this.Barza.Location = new System.Drawing.Point(705, 66);
             this.Barza.Name = "Barza";
-            this.Barza.Size = new System.Drawing.Size(191, 144);
+            this.Barza.Size = new System.Drawing.Size(185, 142);
             this.Barza.TabIndex = 22;
             this.Barza.TabStop = false;
             this.Barza.Click += new System.EventHandler(this.Barza_Click);
@@ -144,27 +144,27 @@ namespace COBRA_VestotoriiPrivamerii
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox1.Location = new System.Drawing.Point(137, 32);
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.richTextBox1.Location = new System.Drawing.Point(117, 28);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(206, 62);
+            this.richTextBox1.Size = new System.Drawing.Size(213, 54);
             this.richTextBox1.TabIndex = 21;
             this.richTextBox1.Text = "Sa auzim ghicitoarea Click pe mine";
             // 
             // ReadFairy
             // 
             this.ReadFairy.BackColor = System.Drawing.Color.Transparent;
-            this.ReadFairy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ReadFairy.BackgroundImage")));
-            this.ReadFairy.Location = new System.Drawing.Point(111, 100);
+            this.ReadFairy.Image = ((System.Drawing.Image)(resources.GetObject("ReadFairy.Image")));
+            this.ReadFairy.Location = new System.Drawing.Point(95, 87);
             this.ReadFairy.Name = "ReadFairy";
-            this.ReadFairy.Size = new System.Drawing.Size(252, 373);
+            this.ReadFairy.Size = new System.Drawing.Size(254, 364);
             this.ReadFairy.TabIndex = 20;
             this.ReadFairy.TabStop = false;
             this.ReadFairy.Click += new System.EventHandler(this.ReadFairy_Click);
             // 
             // JocRomana2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1184, 761);
