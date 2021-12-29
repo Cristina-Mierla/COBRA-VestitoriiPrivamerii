@@ -57,3 +57,4 @@ C:\Users\alisa\Documents\GitHub\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\
 C:\Users\alisa\Documents\GitHub\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.JocMate3.resources
 C:\Users\alisa\Documents\GitHub\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.csproj.CoreCompileInputs.cache
 C:\Users\alisa\Documents\GitHub\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.PovesteRo.resources
+C:\Users\Oana_\OneDrive\Documente\GitHub\COBRA-VestitoriiPrivamerii\VestitoriiPrimaverii\obj\Debug\VestitoriiPrimaverii.PovesteRo.resources

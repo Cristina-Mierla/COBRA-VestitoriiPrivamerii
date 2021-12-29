@@ -94,6 +94,7 @@
     </Compile>
     <Compile Include="JocMediuReguli.Designer.cs">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
+    </Compile>
     <Compile Include="PovesteRo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +126,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocMediuReguli.resx">
       <DependentUpon>JocMediuReguli.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PovesteRo.resx">
       <DependentUpon>PovesteRo.cs</DependentUpon>
     </EmbeddedResource>
