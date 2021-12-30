@@ -19,6 +19,8 @@ namespace VestitoriiPrimaverii.Resources
         //poveste romana
         public static string pathCantecVinePrimavara = buildAbsolutePath(@"Resources\povesteRomana\cantecPovesteRomana.mp4");
 
+        //poveste mate
+        public static string pathCantecel = buildAbsolutePath(@"Resources\povesteMate\cantecel.mp4");
 
         static string buildAbsolutePath(string path)
         {

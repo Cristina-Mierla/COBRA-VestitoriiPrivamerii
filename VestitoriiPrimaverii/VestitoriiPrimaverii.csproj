@@ -71,6 +71,12 @@
     <Compile Include="jocMate\JocMate3.Designer.cs">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </Compile>
+    <Compile Include="PovesteMate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PovesteMate.Designer.cs">
+      <DependentUpon>PovesteMate.cs</DependentUpon>
+    </Compile>
     <Compile Include="povesteMediu\PovesteMediu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="jocMate\JocMate3.resx">
       <DependentUpon>JocMate3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PovesteMate.resx">
+      <DependentUpon>PovesteMate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="povesteMediu\PovesteMediu.resx">
       <DependentUpon>PovesteMediu.cs</DependentUpon>
