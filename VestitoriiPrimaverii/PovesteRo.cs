@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.Resources;
 
 namespace VestitoriiPrimaverii
 {
@@ -15,6 +16,7 @@ namespace VestitoriiPrimaverii
         public PovesteRo()
         {
             InitializeComponent();
+            axWindowsMediaPlayer1.URL = Constants.pathCantecVinePrimavara;
         }
     }
 }
