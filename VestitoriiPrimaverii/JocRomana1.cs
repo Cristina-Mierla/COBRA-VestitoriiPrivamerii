@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Media;
 using System.Text;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.Resources;
 
 namespace COBRA_VestotoriiPrivamerii
 {
@@ -43,7 +44,7 @@ namespace COBRA_VestotoriiPrivamerii
 
         private void ReadFairy_Click(object sender, EventArgs e)
         {
-            string filename = AppDomain.CurrentDomain.BaseDirectory + "Ghiocelul.wav";
+            string filename = Constants.pathGhiocelul;
             SoundPlayer splayer = new SoundPlayer(filename);
             splayer.Play();
         }

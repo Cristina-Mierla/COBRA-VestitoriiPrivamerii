@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Media;
+using VestitoriiPrimaverii.Resources;
 
 namespace COBRA_VestotoriiPrivamerii
 {
@@ -28,7 +29,7 @@ namespace COBRA_VestotoriiPrivamerii
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            string filename = AppDomain.CurrentDomain.BaseDirectory + "Primavara.wav";
+            string filename = Constants.pathPrimavara;
             SoundPlayer splayer = new SoundPlayer(filename);
             splayer.Play();
         }

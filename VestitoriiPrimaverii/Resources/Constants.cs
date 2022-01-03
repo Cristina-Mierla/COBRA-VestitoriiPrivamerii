@@ -30,6 +30,11 @@ namespace VestitoriiPrimaverii.Resources
         //joc mediu
         public static string pathReguliMediu = buildAbsolutePath(@"Resources\jocMediu\Fulgi.mp3");
 
+        //joc romana
+        public static string pathPrimavara = buildAbsolutePath(@"Resources\Primavara.wav");
+        public static string pathGhiocelul = buildAbsolutePath(@"Resources\Ghiocelul.wav");
+        public static string pathRandunica = buildAbsolutePath(@"Resources\Randunica.wav");
+
         static string buildAbsolutePath(string path)
         {
             string absolutePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
