@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.Resources;
 
 namespace VestitoriiPrimaverii
 {
@@ -22,6 +23,12 @@ namespace VestitoriiPrimaverii
             this.Hide();
             JocMediu1 f2 = new JocMediu1();
             f2.Show();
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathReguliMediu;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
         }
     }
 }

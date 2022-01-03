@@ -22,6 +22,14 @@ namespace VestitoriiPrimaverii.Resources
         //poveste mate
         public static string pathCantecel = buildAbsolutePath(@"Resources\povesteMate\cantecel.mp4");
 
+        //joc mate
+        public static string pathBuburuzaAudio = buildAbsolutePath(@"Resources\jocMate\Buburuza.mp3");
+        public static string pathGhioceiAudio = buildAbsolutePath(@"Resources\jocMate\Ghiocei.mp3");
+        public static string pathFluturiAudio = buildAbsolutePath(@"Resources\jocMate\Fluturi.mp3");
+
+        //joc mediu
+        public static string pathReguliMediu = buildAbsolutePath(@"Resources\jocMediu\Fulgi.mp3");
+
         static string buildAbsolutePath(string path)
         {
             string absolutePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
