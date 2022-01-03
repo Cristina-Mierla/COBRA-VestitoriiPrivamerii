@@ -71,6 +71,12 @@
     <Compile Include="jocMate\JocMate3.Designer.cs">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </Compile>
+    <Compile Include="JocOmSocietate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocOmSocietate.Designer.cs">
+      <DependentUpon>JocOmSocietate.cs</DependentUpon>
+    </Compile>
     <Compile Include="PovesteMate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,6 +169,9 @@
     <EmbeddedResource Include="jocMate\JocMate3.resx">
       <DependentUpon>JocMate3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JocOmSocietate.resx">
+      <DependentUpon>JocOmSocietate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PovesteMate.resx">
       <DependentUpon>PovesteMate.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +260,32 @@
     <None Include="Resources\felicitari-excited.gif" />
     <None Include="Resources\background.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\conservam_apa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\energie_verde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mai_putina_hartie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mancam_legume.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mijloace_transport_verzi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planteaza_copaci.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strange_gunoaiele.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uda_florile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
