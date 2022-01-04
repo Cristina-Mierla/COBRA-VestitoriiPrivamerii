@@ -77,6 +77,12 @@
     <Compile Include="JocOmSocietate.Designer.cs">
       <DependentUpon>JocOmSocietate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="PovesteMate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocOmSocietate.resx">
       <DependentUpon>JocOmSocietate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PovesteMate.resx">
       <DependentUpon>PovesteMate.cs</DependentUpon>
@@ -295,6 +304,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\craiasaPrimaverii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconMate.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconRomana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconMediu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconOm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speak1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speak2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

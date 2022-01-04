@@ -118,52 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="snowmansaysbye" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snowmansaysbye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="seTopesteZapada" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seTopesteZapada.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="felicitari-excited" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\felicitari-excited.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="primavaraVietati" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\primavaraVietati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pasariCalatoare" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pasariCalatoare.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="conservam_apa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\conservam_apa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="energie_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\energie_verde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconRomana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconRomana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mai_putina_hartie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mai_putina_hartie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mancam_legume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mancam_legume.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="planteaza_copaci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\planteaza_copaci.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bubu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bubu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seTopesteZapada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seTopesteZapada.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pasariCalatoare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pasariCalatoare.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="primavaraVietati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\primavaraVietati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mijloace_transport_verzi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mijloace_transport_verzi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="planteaza_copaci" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\planteaza_copaci.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mancam_legume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mancam_legume.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uda_florile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uda_florile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speak1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speak1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="strange_gunoaiele" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\strange_gunoaiele.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="uda_florile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\uda_florile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="felicitari-excited" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\felicitari-excited.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conservam_apa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conservam_apa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMediu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMediu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="energie_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\energie_verde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="craiasaPrimaverii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\craiasaPrimaverii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconOm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconOm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMate.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowmansaysbye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowmansaysbye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speak2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speak2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
