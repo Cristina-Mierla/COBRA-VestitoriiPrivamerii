@@ -24,11 +24,7 @@ namespace VestitoriiPrimaverii
         {
             var next = new PovesteMate();
             this.Hide();
-            next.Location = this.Location;
-            next.StartPosition = FormStartPosition.Manual;
-            //next.FormClosing += delegate { this.Show(); };
-            next.ShowDialog();
-            this.Close();
+            next.Show();
         }
 
         //romana
@@ -36,11 +32,7 @@ namespace VestitoriiPrimaverii
         {
             var next = new PovesteRo();
             this.Hide();
-            next.Location = this.Location;
-            next.StartPosition = FormStartPosition.Manual;
-            //next.FormClosing += delegate { this.Show(); };
-            next.ShowDialog();
-            this.Close();
+            next.Show();
         }
 
         //mediu
@@ -48,11 +40,7 @@ namespace VestitoriiPrimaverii
         {
             var next = new PovesteMediu();
             this.Hide();
-            next.Location = this.Location;
-            next.StartPosition = FormStartPosition.Manual;
-            //next.FormClosing += delegate { this.Show(); };
-            next.ShowDialog();
-            this.Close();
+            next.Show();
         }
 
         //om si societate
@@ -60,11 +48,7 @@ namespace VestitoriiPrimaverii
         {
             var next = new PovSocietate();
             this.Hide();
-            next.Location = this.Location;
-            next.StartPosition = FormStartPosition.Manual;
-            //next.FormClosing += delegate { this.Show(); };
-            next.ShowDialog();
-            this.Close();
+            next.Show();
         }
 
         //tachinare
@@ -72,16 +56,7 @@ namespace VestitoriiPrimaverii
         {
             var next = new Main();
             this.Hide();
-            next.Location = this.Location;
-            next.StartPosition = FormStartPosition.Manual;
-            //next.FormClosing += delegate { this.Show(); };
-            next.ShowDialog();
-            this.Close();
-        }
-
-        private void Main_Load(object sender, EventArgs e)
-        {
-
+            next.Show();
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)

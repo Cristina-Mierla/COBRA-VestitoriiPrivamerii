@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.povesteMediu;
 using VestitoriiPrimaverii.Resources;
 
 namespace VestitoriiPrimaverii
@@ -19,9 +20,14 @@ namespace VestitoriiPrimaverii
             axWindowsMediaPlayer1.URL = Constants.pathPovesteSocietate;
         }
 
-        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
         {
-
+            if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
+            {
+                this.Hide();
+                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocOmSocietate());
+                povesteTerminata.Show();
+            }
         }
     }
 }

@@ -129,21 +129,6 @@ namespace VestitoriiPrimaverii
             }
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void JocMate1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.URL = Constants.pathBuburuzaAudio;
