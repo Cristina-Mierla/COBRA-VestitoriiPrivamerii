@@ -40,5 +40,10 @@ namespace VestitoriiPrimaverii
             axWindowsMediaPlayer1.URL = Constants.pathCantecel;
             axWindowsMediaPlayer1.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(player_PlayStateChange);
         }
+
+        private void PovesteMate_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
