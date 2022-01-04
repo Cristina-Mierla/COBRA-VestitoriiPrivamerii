@@ -37,6 +37,9 @@ namespace VestitoriiPrimaverii.Resources
         public static string pathPrimavara = buildAbsolutePath(@"Resources\Primavara.wav");
         public static string pathGhiocelul = buildAbsolutePath(@"Resources\Ghiocelul.wav");
         public static string pathRandunica = buildAbsolutePath(@"Resources\Randunica.wav");
+        
+        public static string pathIntro = buildAbsolutePath(@"Resources\Intro.mp4");
+
 
         static string buildAbsolutePath(string path)
         {

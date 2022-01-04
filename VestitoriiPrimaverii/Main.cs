@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.Resources;
 
 namespace VestitoriiPrimaverii
 {
@@ -81,6 +82,12 @@ namespace VestitoriiPrimaverii
         private void Main_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathIntro;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
         }
     }
 }
