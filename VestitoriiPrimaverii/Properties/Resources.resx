@@ -132,6 +132,7 @@
   </data>
   <data name="gifFloriInvie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gifFloriInvie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bubu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bubu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -149,6 +150,7 @@
   </data>
   <data name="mancam_legume" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mancam_legume.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="glitter-flow-gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\glitter-flow-gold.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,6 +171,7 @@
   </data>
   <data name="mijloace_transport_verzi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mijloace_transport_verzi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="energie_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\energie_verde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,6 +192,7 @@
   </data>
   <data name="seTopesteZapada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seTopesteZapada.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="craiasaPrimaverii" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\craiasaPrimaverii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -209,6 +213,7 @@
   </data>
   <data name="iconMate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMate.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mijloace_transport_verzi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mijloace_transport_verzi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,11 +234,13 @@
   </data>
   <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconOm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconOm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    </data>
   <data name="glitter-stars" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\glitter-stars.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
