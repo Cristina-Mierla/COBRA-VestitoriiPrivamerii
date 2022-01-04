@@ -106,7 +106,6 @@ namespace COBRA_VestotoriiPrivamerii
             this.richTextBox3.Size = new System.Drawing.Size(100, 54);
             this.richTextBox3.TabIndex = 26;
             this.richTextBox3.Text = "Vrabia";
-            this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
             // 
             // Randunica
             // 

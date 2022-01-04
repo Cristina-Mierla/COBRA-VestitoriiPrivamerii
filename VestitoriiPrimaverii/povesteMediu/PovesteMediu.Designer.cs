@@ -49,7 +49,7 @@
             // picturePrimavaraSchimbari
             // 
             this.picturePrimavaraSchimbari.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picturePrimavaraSchimbari.Image = global::VestitoriiPrimaverii.Properties.Resources.primavaraVietati;
+            this.picturePrimavaraSchimbari.Image = global::VestitoriiPrimaverii.Properties.Resources.gifFloriInvie;
             this.picturePrimavaraSchimbari.Location = new System.Drawing.Point(95, 44);
             this.picturePrimavaraSchimbari.Name = "picturePrimavaraSchimbari";
             this.picturePrimavaraSchimbari.Size = new System.Drawing.Size(400, 300);
@@ -97,7 +97,7 @@
             // 
             // pictureFramePrimavaraSchimbari
             // 
-            this.pictureFramePrimavaraSchimbari.Image = global::VestitoriiPrimaverii.Properties.Resources.frame;
+            this.pictureFramePrimavaraSchimbari.Image = global::VestitoriiPrimaverii.Properties.Resources.glitter_sparkle__1_;
             this.pictureFramePrimavaraSchimbari.Location = new System.Drawing.Point(79, 32);
             this.pictureFramePrimavaraSchimbari.Name = "pictureFramePrimavaraSchimbari";
             this.pictureFramePrimavaraSchimbari.Size = new System.Drawing.Size(434, 322);
@@ -107,7 +107,7 @@
             // 
             // pictureFrameOmZapada
             // 
-            this.pictureFrameOmZapada.Image = global::VestitoriiPrimaverii.Properties.Resources.frame;
+            this.pictureFrameOmZapada.Image = global::VestitoriiPrimaverii.Properties.Resources.glitter_sparkle__1_;
             this.pictureFrameOmZapada.Location = new System.Drawing.Point(646, 32);
             this.pictureFrameOmZapada.Name = "pictureFrameOmZapada";
             this.pictureFrameOmZapada.Size = new System.Drawing.Size(434, 322);
@@ -117,7 +117,7 @@
             // 
             // pictureFrameGhiocel
             // 
-            this.pictureFrameGhiocel.Image = global::VestitoriiPrimaverii.Properties.Resources.frame;
+            this.pictureFrameGhiocel.Image = global::VestitoriiPrimaverii.Properties.Resources.glitter_sparkle__1_;
             this.pictureFrameGhiocel.Location = new System.Drawing.Point(79, 393);
             this.pictureFrameGhiocel.Name = "pictureFrameGhiocel";
             this.pictureFrameGhiocel.Size = new System.Drawing.Size(434, 322);
@@ -127,7 +127,7 @@
             // 
             // pictureFramePasariCalatoare
             // 
-            this.pictureFramePasariCalatoare.Image = global::VestitoriiPrimaverii.Properties.Resources.frame;
+            this.pictureFramePasariCalatoare.Image = global::VestitoriiPrimaverii.Properties.Resources.glitter_sparkle__1_;
             this.pictureFramePasariCalatoare.Location = new System.Drawing.Point(646, 393);
             this.pictureFramePasariCalatoare.Name = "pictureFramePasariCalatoare";
             this.pictureFramePasariCalatoare.Size = new System.Drawing.Size(434, 322);

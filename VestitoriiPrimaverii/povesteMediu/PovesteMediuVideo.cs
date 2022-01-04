@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.povesteMediu;
 
 namespace VestitoriiPrimaverii
 {
     public partial class PovesteMediuVideo : Form
     {
-
         private string path;
         private PovesteMediu povesteMediu;
 
@@ -33,7 +33,12 @@ namespace VestitoriiPrimaverii
 
         private void PovesteMediuVideo_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.povesteMediu.checkIfFinished(); 
+            if(this.povesteMediu.checkIfFinished())
+            {
+                PovesteTerminata povesteTerminata = new PovesteTerminata(new PovesteMediu(), new JocMediuReguli());
+                povesteMediu.Hide();
+                povesteTerminata.Show();
+            }
         }
     }
 }

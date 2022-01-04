@@ -23,11 +23,6 @@ namespace VestitoriiPrimaverii
             stopWatch.Start();
         }
 
-        private void JocMediu3_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Success()
         {
             stopWatch.Stop();
@@ -37,6 +32,8 @@ namespace VestitoriiPrimaverii
                 ts.Milliseconds / 10);
             MessageBox.Show("Felicitari!! Esti campion la aducerea primaverii: " + elapsedTime + " secunde. Super tare!");
             this.Close();
+            JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli());
+            jocTerminat.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

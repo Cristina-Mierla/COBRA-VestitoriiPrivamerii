@@ -181,6 +181,7 @@ namespace COBRA_VestotoriiPrivamerii
             this.Controls.Add(this.ReadFairy);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "JocRomana0";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JocRomana";
             ((System.ComponentModel.ISupportInitialize)(this.ReadFairy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpringFairy)).EndInit();

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Media;
 using System.Text;
 using System.Windows.Forms;
+using VestitoriiPrimaverii;
 using VestitoriiPrimaverii.Resources;
 
 namespace COBRA_VestotoriiPrivamerii
@@ -15,11 +16,6 @@ namespace COBRA_VestotoriiPrivamerii
         public JocRomana2()
         {
             InitializeComponent();
-        }
-
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void Barza_Click(object sender, EventArgs e)
@@ -34,7 +30,9 @@ namespace COBRA_VestotoriiPrivamerii
 
         private void Randunica_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            JocTerminat jocTerminat = new JocTerminat(new JocRomana0());
+            jocTerminat.Show();
         }
 
         private void ReadFairy_Click(object sender, EventArgs e)

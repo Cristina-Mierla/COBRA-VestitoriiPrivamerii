@@ -55,8 +55,20 @@ namespace VestitoriiPrimaverii
                 if (time < 0)
                 {
                     timer.Stop();
-                    MessageBox.Show("Timpul a expirat!!!");
-                    this.Close();
+                    MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                    DialogResult result = MessageBox.Show("Timpul a expirat. Vrei sa incerci din nou?", "Timpul a expirat", buttons);
+                    if (result == DialogResult.Yes)
+                    {
+                        this.Hide();
+                        JocOmSocietate jocOmSocietate = new JocOmSocietate();
+                        jocOmSocietate.Show();
+                    }
+                    else
+                    {
+                        this.Hide();
+                        Main main = new Main();  
+                        main.Show();
+                    }
                 }
                 var ssTime = TimeSpan.FromSeconds(time);
                 lblTime.Text = "00: " + time.ToString();
@@ -122,8 +134,9 @@ namespace VestitoriiPrimaverii
             firstGuess = null;
             if (pictureBoxes.Any(p => p.Visible)) return;
             timer.Stop();
-            MessageBox.Show("Ai câștigat!!!");
-            this.Close();
+            this.Hide();
+            JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate());
+            jocTerminat.Show();
         }
 
         private void startGame(object sender, EventArgs e)

@@ -49,7 +49,6 @@ namespace VestitoriiPrimaverii
             invsWidgets.Add(pictureBox2);
             Make_invisible(invsWidgets);
 
-
             option = true;
         }
 
@@ -116,31 +115,12 @@ namespace VestitoriiPrimaverii
         {
             if (option == true)
             {
-                var next = new JocMate1();
                 this.Hide();
-                next.Location = this.Location;
-                next.StartPosition = FormStartPosition.Manual;
-                next.FormClosing += delegate { this.Show(); };
-                next.ShowDialog();
-                this.Close();
+                JocTerminat jocTerminat = new JocTerminat(new JocMate1());
+                jocTerminat.Show(); 
 
                 option = false;
             }
-        }
-
-        private void JocMate3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)

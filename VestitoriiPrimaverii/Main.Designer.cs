@@ -46,9 +46,10 @@ namespace VestitoriiPrimaverii
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VestitoriiPrimaverii.Properties.Resources.iconMate;
-            this.pictureBox2.Location = new System.Drawing.Point(79, 711);
+            this.pictureBox2.Location = new System.Drawing.Point(59, 578);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox2.Size = new System.Drawing.Size(167, 159);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -56,9 +57,10 @@ namespace VestitoriiPrimaverii
             // pictureBox3
             // 
             this.pictureBox3.Image = global::VestitoriiPrimaverii.Properties.Resources.iconRomana;
-            this.pictureBox3.Location = new System.Drawing.Point(358, 711);
+            this.pictureBox3.Location = new System.Drawing.Point(268, 578);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox3.Size = new System.Drawing.Size(167, 159);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -66,9 +68,10 @@ namespace VestitoriiPrimaverii
             // pictureBox4
             // 
             this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.iconMediu;
-            this.pictureBox4.Location = new System.Drawing.Point(647, 711);
+            this.pictureBox4.Location = new System.Drawing.Point(485, 578);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox4.Size = new System.Drawing.Size(167, 159);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -76,9 +79,10 @@ namespace VestitoriiPrimaverii
             // pictureBox5
             // 
             this.pictureBox5.Image = global::VestitoriiPrimaverii.Properties.Resources.iconOm;
-            this.pictureBox5.Location = new System.Drawing.Point(932, 711);
+            this.pictureBox5.Location = new System.Drawing.Point(699, 578);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox5.Size = new System.Drawing.Size(167, 159);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -87,9 +91,10 @@ namespace VestitoriiPrimaverii
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::VestitoriiPrimaverii.Properties.Resources.bubu;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 318);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 258);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(280, 264);
+            this.pictureBox1.Size = new System.Drawing.Size(210, 214);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -98,27 +103,30 @@ namespace VestitoriiPrimaverii
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::VestitoriiPrimaverii.Properties.Resources.speak2;
-            this.pictureBox6.Location = new System.Drawing.Point(179, 69);
+            this.pictureBox6.Location = new System.Drawing.Point(134, 56);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(466, 254);
+            this.pictureBox6.Size = new System.Drawing.Size(350, 206);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::VestitoriiPrimaverii.Properties.Resources.unnamed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1262, 977);
+            this.ClientSize = new System.Drawing.Size(946, 794);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

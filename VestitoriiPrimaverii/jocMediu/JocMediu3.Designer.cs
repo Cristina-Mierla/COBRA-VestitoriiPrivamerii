@@ -428,7 +428,6 @@
             this.Name = "JocMediu3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JocMediu";
-            this.Load += new System.EventHandler(this.JocMediu3_Load);
             this.ResumeLayout(false);
 
         }
