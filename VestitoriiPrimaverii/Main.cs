@@ -54,7 +54,7 @@ namespace VestitoriiPrimaverii
         //tachinare
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            var next = new Main();
+            var next = new PovTachinare();
             this.Hide();
             next.Show();
         }

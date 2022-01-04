@@ -52,10 +52,10 @@ namespace VestitoriiPrimaverii
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VestitoriiPrimaverii.Properties.Resources.iconMate;
-            this.pictureBox2.Location = new System.Drawing.Point(23, 711);
+            this.pictureBox2.Location = new System.Drawing.Point(69, 650);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox2.Size = new System.Drawing.Size(162, 169);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -64,10 +64,10 @@ namespace VestitoriiPrimaverii
             // pictureBox3
             // 
             this.pictureBox3.Image = global::VestitoriiPrimaverii.Properties.Resources.iconRomana;
-            this.pictureBox3.Location = new System.Drawing.Point(269, 711);
+            this.pictureBox3.Location = new System.Drawing.Point(258, 650);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox3.Size = new System.Drawing.Size(162, 169);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -76,10 +76,10 @@ namespace VestitoriiPrimaverii
             // pictureBox4
             // 
             this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.iconMed;
-            this.pictureBox4.Location = new System.Drawing.Point(521, 711);
+            this.pictureBox4.Location = new System.Drawing.Point(449, 650);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox4.Size = new System.Drawing.Size(162, 169);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -88,11 +88,11 @@ namespace VestitoriiPrimaverii
             // pictureBox5
             // 
             this.pictureBox5.Image = global::VestitoriiPrimaverii.Properties.Resources.iconOm;
-            this.pictureBox5.Location = new System.Drawing.Point(1017, 711);
+            this.pictureBox5.Location = new System.Drawing.Point(838, 650);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(223, 196);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.Size = new System.Drawing.Size(162, 169);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
@@ -101,7 +101,7 @@ namespace VestitoriiPrimaverii
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::VestitoriiPrimaverii.Properties.Resources.bubu;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 407);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 360);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(280, 263);
@@ -113,7 +113,7 @@ namespace VestitoriiPrimaverii
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::VestitoriiPrimaverii.Properties.Resources.speak2;
-            this.pictureBox6.Location = new System.Drawing.Point(133, 41);
+            this.pictureBox6.Location = new System.Drawing.Point(37, -3);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(600, 359);
@@ -124,10 +124,10 @@ namespace VestitoriiPrimaverii
             // pictureBox7
             // 
             this.pictureBox7.Image = global::VestitoriiPrimaverii.Properties.Resources.iconMediu;
-            this.pictureBox7.Location = new System.Drawing.Point(768, 711);
+            this.pictureBox7.Location = new System.Drawing.Point(643, 650);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(223, 196);
+            this.pictureBox7.Size = new System.Drawing.Size(162, 169);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 7;
             this.pictureBox7.TabStop = false;
@@ -138,7 +138,7 @@ namespace VestitoriiPrimaverii
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(208, 139);
+            this.label1.Location = new System.Drawing.Point(105, 100);
             this.label1.MaximumSize = new System.Drawing.Size(447, 100);
             this.label1.MinimumSize = new System.Drawing.Size(447, 100);
             this.label1.Name = "label1";
@@ -152,7 +152,7 @@ namespace VestitoriiPrimaverii
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(359, 203);
-            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(4);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(75, 23);
@@ -165,11 +165,11 @@ namespace VestitoriiPrimaverii
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::VestitoriiPrimaverii.Properties.Resources.unnamed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1261, 977);
+            this.ClientSize = new System.Drawing.Size(1072, 848);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
