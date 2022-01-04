@@ -203,6 +203,16 @@ namespace VestitoriiPrimaverii.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconMed {
+            get {
+                object obj = ResourceManager.GetObject("iconMed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconMediu {
             get {
                 object obj = ResourceManager.GetObject("iconMediu", resourceCulture);

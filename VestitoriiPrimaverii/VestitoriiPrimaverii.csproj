@@ -353,5 +353,8 @@
   <ItemGroup>
     <None Include="Resources\glitter-stars.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconMed.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
