@@ -36,6 +36,7 @@ namespace VestitoriiPrimaverii
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -93,7 +94,7 @@ namespace VestitoriiPrimaverii
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::VestitoriiPrimaverii.Properties.Resources.bubu;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 318);
+            this.pictureBox1.Location = new System.Drawing.Point(37, 407);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(280, 264);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -104,9 +105,9 @@ namespace VestitoriiPrimaverii
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::VestitoriiPrimaverii.Properties.Resources.speak2;
-            this.pictureBox6.Location = new System.Drawing.Point(179, 69);
+            this.pictureBox6.Location = new System.Drawing.Point(134, 41);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(466, 254);
+            this.pictureBox6.Size = new System.Drawing.Size(600, 360);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
@@ -122,6 +123,20 @@ namespace VestitoriiPrimaverii
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(208, 139);
+            this.label1.MaximumSize = new System.Drawing.Size(447, 100);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(447, 100);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Salutare!\r\nHaide sa ne jucam si sa invatam impreuna.\r\nApasa una dintre imaginile " +
+    "de mai jos \r\npentru a vedea ce suprize ti-am pregatit eu si prietenii mei.\r\nCe f" +
+    "ericita sunt cand vine primvara!";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -129,6 +144,7 @@ namespace VestitoriiPrimaverii
             this.BackgroundImage = global::VestitoriiPrimaverii.Properties.Resources.unnamed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1262, 977);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox1);
@@ -138,6 +154,7 @@ namespace VestitoriiPrimaverii
             this.Controls.Add(this.pictureBox2);
             this.Name = "Main";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -146,6 +163,7 @@ namespace VestitoriiPrimaverii
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -158,5 +176,6 @@ namespace VestitoriiPrimaverii
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label label1;
     }
 }
