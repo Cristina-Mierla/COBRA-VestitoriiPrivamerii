@@ -25,7 +25,7 @@ namespace VestitoriiPrimaverii
             f2.Show();
         }
 
-        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        private void JocMediuReguli_Activated(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.URL = Constants.pathReguliMediu;
             axWindowsMediaPlayer1.Ctlcontrols.play();
