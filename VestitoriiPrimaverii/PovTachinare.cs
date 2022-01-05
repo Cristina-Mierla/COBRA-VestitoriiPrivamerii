@@ -18,7 +18,7 @@ namespace VestitoriiPrimaverii
             if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
             {
                 this.Hide();
-                JocTerminat jocTerminat = new JocTerminat(new PovTachinare());
+                JocTerminat jocTerminat = new JocTerminat(this);
                 jocTerminat.Show();
             }
         }
