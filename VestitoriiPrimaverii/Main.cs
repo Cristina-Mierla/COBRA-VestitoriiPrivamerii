@@ -13,10 +13,18 @@ namespace VestitoriiPrimaverii
 {
     public partial class Main : Form
     {
+        private bool play = false;
         public Main()
         {
             InitializeComponent();
             this.label1.Text = "Salutare!\nHaide sa ne jucam si sa invatam impreuna. Apasa una dintre imaginile de mai jos pentru a vedea ce suprize ti - am pregatit eu si prietenii mei.\nCe fericita sunt cand vine primvara!";
+        }
+
+        public Main (bool play)
+        {
+            InitializeComponent();
+            this.label1.Text = "Salutare!\nHaide sa ne jucam si sa invatam impreuna. Apasa una dintre imaginile de mai jos pentru a vedea ce suprize ti - am pregatit eu si prietenii mei.\nCe fericita sunt cand vine primvara!";
+            this.play = play;
         }
 
         //mate
@@ -61,8 +69,11 @@ namespace VestitoriiPrimaverii
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = Constants.pathIntro;
-            axWindowsMediaPlayer1.Ctlcontrols.play();
+            if (this.play)
+            {
+                axWindowsMediaPlayer1.URL = Constants.pathIntro;
+                axWindowsMediaPlayer1.Ctlcontrols.play();
+            }
         }
     }
 }
