@@ -22,6 +22,13 @@ namespace VestitoriiPrimaverii
             InitializeComponent();
             stopWatch.Start();
         }
+        private bool finished = false;
+        public JocMediu3(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+            stopWatch.Start();
+        }
 
         private void Success()
         {
@@ -32,8 +39,16 @@ namespace VestitoriiPrimaverii
                 ts.Milliseconds / 10);
             MessageBox.Show("Felicitari!! Esti campion la aducerea primaverii: " + elapsedTime + " secunde. Super tare!");
             this.Close();
-            JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), new PovesteMate());
-            jocTerminat.Show();
+            if (finished)
+            {
+                JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), this.finished);
+                jocTerminat.Show();
+            }
+            else
+            {
+                JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), new PovesteMate());
+                jocTerminat.Show();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

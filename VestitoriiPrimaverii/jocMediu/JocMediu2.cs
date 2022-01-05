@@ -15,6 +15,13 @@ namespace VestitoriiPrimaverii
             InitializeComponent();
             stopWatch.Start();
         }
+        private bool finished = false;
+        public JocMediu2(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+            stopWatch.Start();
+        }
 
         private void JocMediu2_Load(object sender, EventArgs e)
         {
@@ -30,7 +37,7 @@ namespace VestitoriiPrimaverii
                 ts.Milliseconds / 10);
             MessageBox.Show("Wow! Devii din ce in ce mai bun, doar " + elapsedTime + " secunde. Haide sa vedem urmatoarea provocare de fulgi!");
             this.Hide();
-            JocMediu3 f2 = new JocMediu3();
+            JocMediu3 f2 = new JocMediu3(this.finished);
             f2.Show();
         }
 

@@ -23,6 +23,12 @@ namespace VestitoriiPrimaverii
         {
             InitializeComponent();
         }
+        private bool finished = false;
+        public JocOmSocietate(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+        }
 
         private PictureBox[] pictureBoxes
         {
@@ -135,8 +141,16 @@ namespace VestitoriiPrimaverii
             if (pictureBoxes.Any(p => p.Visible)) return;
             timer.Stop();
             this.Hide();
-            JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare());
-            jocTerminat.Show();
+            if (this.finished)
+            {
+                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), this.finished);
+                jocTerminat.Show();
+            }
+            else 
+            {
+                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare());
+                jocTerminat.Show();
+            }
         }
 
         private void startGame(object sender, EventArgs e)

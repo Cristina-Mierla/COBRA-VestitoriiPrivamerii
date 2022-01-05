@@ -14,6 +14,7 @@ namespace VestitoriiPrimaverii
     public partial class JocMate2 : Form
     {
         private bool option = false;
+        private bool finished = false;
         private static void Make_visible(List<Control> widgets)
         {
             foreach (Control obj in widgets)
@@ -32,6 +33,12 @@ namespace VestitoriiPrimaverii
         public JocMate2()
         {
             InitializeComponent();
+        }
+
+        public JocMate2(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
@@ -121,7 +128,7 @@ namespace VestitoriiPrimaverii
         {
             if (option == true)
             {
-                var next = new JocMate3();
+                var next = new JocMate3(this.finished);
                 this.Hide();
                 next.Location = this.Location;
                 next.StartPosition = FormStartPosition.Manual;

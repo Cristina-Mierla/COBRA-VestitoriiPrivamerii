@@ -11,6 +11,12 @@ namespace VestitoriiPrimaverii
         {
             InitializeComponent();
         }
+        public bool finished = false;
+        public PovesteMediu(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+        }
 
         private void pictureOmZapada_Click(object sender, EventArgs e)
         {

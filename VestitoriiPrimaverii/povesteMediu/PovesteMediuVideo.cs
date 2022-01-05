@@ -35,7 +35,7 @@ namespace VestitoriiPrimaverii
         {
             if(this.povesteMediu.checkIfFinished())
             {
-                PovesteTerminata povesteTerminata = new PovesteTerminata(new PovesteMediu(), new JocMediuReguli());
+                PovesteTerminata povesteTerminata = new PovesteTerminata(new PovesteMediu(), new JocMediuReguli(this.povesteMediu.finished));
                 povesteMediu.Hide();
                 povesteTerminata.Show();
             }

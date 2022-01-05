@@ -14,14 +14,14 @@ namespace VestitoriiPrimaverii
     {
         private Form formJoc;
         private Form nextJoc;
-        private bool notfinal = true;
+        private bool final = true;
         private bool finished = false;
         public JocTerminat(Form fromJoc, Form nextJoc)
         {
             this.formJoc = fromJoc;
             this.nextJoc = nextJoc;
             InitializeComponent();
-            if (this.notfinal == true)
+            if (this.final == true)
             {
                 this.button3.Visible = true;
             }
@@ -34,9 +34,9 @@ namespace VestitoriiPrimaverii
         public JocTerminat(Form fromJoc, bool final)
         {
             this.formJoc = fromJoc;
-            this.notfinal = final;
+            this.final = final;
             InitializeComponent();
-            if (this.notfinal == true)
+            if (this.final == true)
             {
                 this.button3.Visible = true;
             }
@@ -49,7 +49,7 @@ namespace VestitoriiPrimaverii
         private void button1_Click(object sender, EventArgs e)
         {   
             this.Hide();
-            Main main = new Main(this.finished);
+            Main main = new Main(!this.final);
             main.Show();
         }
 

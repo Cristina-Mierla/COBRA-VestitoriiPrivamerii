@@ -17,11 +17,17 @@ namespace VestitoriiPrimaverii
         {
             InitializeComponent();
         }
+        private bool finished = false;
+        public JocMediuReguli(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JocMediu1 f2 = new JocMediu1();
+            JocMediu1 f2 = new JocMediu1(this.finished);
             f2.Show();
         }
 

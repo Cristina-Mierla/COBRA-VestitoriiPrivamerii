@@ -47,7 +47,7 @@ namespace VestitoriiPrimaverii
         //mate
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            var next = new PovesteMate();
+            var next = new PovesteMate(this.finished);
             this.Hide();
             next.Show();
         }
@@ -55,7 +55,7 @@ namespace VestitoriiPrimaverii
         //romana
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            var next = new PovesteRo();
+            var next = new PovesteRo(this.finished);
             this.Hide();
             next.Show();
         }
@@ -63,7 +63,7 @@ namespace VestitoriiPrimaverii
         //mediu
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            var next = new PovesteMediu();
+            var next = new PovesteMediu(this.finished);
             this.Hide();
             next.Show();
         }
@@ -71,7 +71,7 @@ namespace VestitoriiPrimaverii
         //om si societate
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            var next = new PovSocietate();
+            var next = new PovSocietate(this.finished);
             this.Hide();
             next.Show();
         }

@@ -7,10 +7,17 @@ namespace VestitoriiPrimaverii
 {
     public partial class PovesteMate : Form
     {
+        private bool finished = false;
         public PovesteMate()
         {
             InitializeComponent();
             //axWindowsMediaPlayer1.URL = Constants.pathCantecel;
+        }
+
+        public PovesteMate(bool finised)
+        {
+            InitializeComponent();
+            this.finished = finished;
         }
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
@@ -18,7 +25,7 @@ namespace VestitoriiPrimaverii
             if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
             {
                 this.Hide();
-                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocMate1());
+                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocMate1(this.finished));
                 povesteTerminata.Show();
             }
         }

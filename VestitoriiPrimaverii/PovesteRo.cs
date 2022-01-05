@@ -12,13 +12,19 @@ namespace VestitoriiPrimaverii
             InitializeComponent();
             //axWindowsMediaPlayer1.URL = Constants.pathCantecVinePrimavara;
         }
+        private bool finished = false;
+        public PovesteRo(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+        }
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
         {
             if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
             {
                 this.Hide();
-                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocRomana0());
+                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocRomana0(this.finished));
                 povesteTerminata.Show();    
             }
         }

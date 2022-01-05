@@ -17,6 +17,12 @@ namespace COBRA_VestotoriiPrivamerii
         {
             InitializeComponent();
         }
+        private bool finished = false;
+        public JocRomana2(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+        }
 
         private void Barza_Click(object sender, EventArgs e)
         {
@@ -31,8 +37,16 @@ namespace COBRA_VestotoriiPrivamerii
         private void Randunica_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), new PovSocietate());
-            jocTerminat.Show();
+            if (finished)
+            {
+                JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), this.finished);
+                jocTerminat.Show();
+            }
+            else
+            {
+                JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), new PovSocietate());
+                jocTerminat.Show();
+            }
         }
 
         private void ReadFairy_Click(object sender, EventArgs e)

@@ -16,6 +16,12 @@ namespace COBRA_VestotoriiPrivamerii
         {
             InitializeComponent();
         }
+        private bool finished = false;
+        public JocRomana1(bool finished)
+        {
+            InitializeComponent();
+            this.finished = finished;
+        }
 
         private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
@@ -30,7 +36,7 @@ namespace COBRA_VestotoriiPrivamerii
         private void Ghiocel_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var next = new JocRomana2();
+            var next = new JocRomana2(this.finished);
             next.Location = this.Location;
             next.StartPosition = FormStartPosition.Manual;
             next.ShowDialog();
