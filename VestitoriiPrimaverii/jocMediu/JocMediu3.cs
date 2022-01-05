@@ -32,7 +32,7 @@ namespace VestitoriiPrimaverii
                 ts.Milliseconds / 10);
             MessageBox.Show("Felicitari!! Esti campion la aducerea primaverii: " + elapsedTime + " secunde. Super tare!");
             this.Close();
-            JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli());
+            JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), new PovesteMate());
             jocTerminat.Show();
         }
 

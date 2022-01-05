@@ -31,7 +31,7 @@ namespace COBRA_VestotoriiPrivamerii
         private void Randunica_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JocTerminat jocTerminat = new JocTerminat(new JocRomana0());
+            JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), new PovSocietate());
             jocTerminat.Show();
         }
 

@@ -45,6 +45,7 @@ namespace VestitoriiPrimaverii
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(1222, 734);
             this.axWindowsMediaPlayer1.TabIndex = 0;
             this.axWindowsMediaPlayer1.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.axWindowsMediaPlayer1_PlayStateChange);
+            this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.axWindowsMediaPlayer1_Enter);
             // 
             // PovesteMate
             // 

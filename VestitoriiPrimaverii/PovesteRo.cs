@@ -10,7 +10,7 @@ namespace VestitoriiPrimaverii
         public PovesteRo()
         {
             InitializeComponent();
-            axWindowsMediaPlayer1.URL = Constants.pathCantecVinePrimavara;
+            //axWindowsMediaPlayer1.URL = Constants.pathCantecVinePrimavara;
         }
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
@@ -21,6 +21,12 @@ namespace VestitoriiPrimaverii
                 PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocRomana0());
                 povesteTerminata.Show();    
             }
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, System.EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathCantecVinePrimavara;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
         }
     }
 }

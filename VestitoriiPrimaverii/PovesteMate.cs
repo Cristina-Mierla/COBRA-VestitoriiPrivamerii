@@ -10,7 +10,7 @@ namespace VestitoriiPrimaverii
         public PovesteMate()
         {
             InitializeComponent();
-            axWindowsMediaPlayer1.URL = Constants.pathCantecel;
+            //axWindowsMediaPlayer1.URL = Constants.pathCantecel;
         }
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
@@ -26,6 +26,12 @@ namespace VestitoriiPrimaverii
         private void PovesteMate_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathCantecel;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
         }
     }
 }

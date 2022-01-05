@@ -135,7 +135,7 @@ namespace VestitoriiPrimaverii
             if (pictureBoxes.Any(p => p.Visible)) return;
             timer.Stop();
             this.Hide();
-            JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate());
+            JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare());
             jocTerminat.Show();
         }
 

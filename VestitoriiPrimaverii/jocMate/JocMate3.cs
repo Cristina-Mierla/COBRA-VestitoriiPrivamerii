@@ -116,7 +116,7 @@ namespace VestitoriiPrimaverii
             if (option == true)
             {
                 this.Hide();
-                JocTerminat jocTerminat = new JocTerminat(new JocMate1());
+                JocTerminat jocTerminat = new JocTerminat(new JocMate1(), new PovesteRo());
                 jocTerminat.Show(); 
 
                 option = false;
