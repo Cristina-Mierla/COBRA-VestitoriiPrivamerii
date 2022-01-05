@@ -40,17 +40,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(329, 89);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(439, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.Size = new System.Drawing.Size(135, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Ai terminat jocul!";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(332, 373);
+            this.button1.Location = new System.Drawing.Point(443, 459);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 61);
+            this.button1.Size = new System.Drawing.Size(264, 75);
             this.button1.TabIndex = 3;
             this.button1.Text = "INAPOI LA MENIU";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,9 +62,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(220, 373);
+            this.button2.Location = new System.Drawing.Point(293, 459);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(89, 61);
+            this.button2.Size = new System.Drawing.Size(119, 75);
             this.button2.TabIndex = 4;
             this.button2.Text = "JOACA DIN NOU";
             this.button2.UseVisualStyleBackColor = true;
@@ -68,34 +73,42 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::VestitoriiPrimaverii.Properties.Resources.johnny_bravo;
-            this.pictureBox2.Location = new System.Drawing.Point(652, 488);
+            this.pictureBox2.Location = new System.Drawing.Point(869, 601);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(106, 70);
+            this.pictureBox2.Size = new System.Drawing.Size(141, 86);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::VestitoriiPrimaverii.Properties.Resources.bravo_great_job;
-            this.pictureBox1.Location = new System.Drawing.Point(220, 124);
+            this.pictureBox1.Location = new System.Drawing.Point(293, 153);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(310, 208);
+            this.pictureBox1.Size = new System.Drawing.Size(413, 256);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // JocTerminat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 561);
+            this.BackgroundImage = global::VestitoriiPrimaverii.Properties.Resources.background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1012, 690);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "JocTerminat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JocTerminat";

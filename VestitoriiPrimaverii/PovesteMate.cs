@@ -22,5 +22,10 @@ namespace VestitoriiPrimaverii
                 povesteTerminata.Show();
             }
         }
+
+        private void PovesteMate_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

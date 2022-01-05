@@ -112,6 +112,12 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="PovTachinare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PovTachinare.Designer.cs">
+      <DependentUpon>PovTachinare.cs</DependentUpon>
+    </Compile>
     <Compile Include="PovesteMate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PovTachinare.resx">
+      <DependentUpon>PovTachinare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PovesteMate.resx">
       <DependentUpon>PovesteMate.cs</DependentUpon>
