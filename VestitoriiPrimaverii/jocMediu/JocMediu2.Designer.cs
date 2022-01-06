@@ -46,6 +46,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -55,7 +57,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(545, 471);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(194, 174);
             this.button1.TabIndex = 0;
@@ -69,7 +71,7 @@
             this.button1_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1_1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1_1.Location = new System.Drawing.Point(623, 480);
-            this.button1_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1_1.Margin = new System.Windows.Forms.Padding(2);
             this.button1_1.Name = "button1_1";
             this.button1_1.Size = new System.Drawing.Size(194, 174);
             this.button1_1.TabIndex = 0;
@@ -83,7 +85,7 @@
             this.button1_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1_2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1_2.Location = new System.Drawing.Point(623, 428);
-            this.button1_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1_2.Margin = new System.Windows.Forms.Padding(2);
             this.button1_2.Name = "button1_2";
             this.button1_2.Size = new System.Drawing.Size(194, 174);
             this.button1_2.TabIndex = 0;
@@ -97,7 +99,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(482, 471);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(72, 60);
             this.button2.TabIndex = 0;
@@ -111,7 +113,7 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Location = new System.Drawing.Point(691, 276);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(83, 70);
             this.button3.TabIndex = 0;
@@ -125,7 +127,7 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Location = new System.Drawing.Point(899, 352);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 55);
             this.button4.TabIndex = 0;
@@ -139,7 +141,7 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Location = new System.Drawing.Point(24, 491);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(78, 62);
             this.button5.TabIndex = 0;
@@ -153,7 +155,7 @@
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Location = new System.Drawing.Point(50, 262);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(161, 134);
             this.button6.TabIndex = 0;
@@ -167,7 +169,7 @@
             this.button6_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6_1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6_1.Location = new System.Drawing.Point(38, 247);
-            this.button6_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6_1.Margin = new System.Windows.Forms.Padding(2);
             this.button6_1.Name = "button6_1";
             this.button6_1.Size = new System.Drawing.Size(161, 134);
             this.button6_1.TabIndex = 0;
@@ -181,7 +183,7 @@
             this.button6_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6_2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6_2.Location = new System.Drawing.Point(60, 273);
-            this.button6_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6_2.Margin = new System.Windows.Forms.Padding(2);
             this.button6_2.Name = "button6_2";
             this.button6_2.Size = new System.Drawing.Size(161, 134);
             this.button6_2.TabIndex = 0;
@@ -195,7 +197,7 @@
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Location = new System.Drawing.Point(208, 513);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(73, 58);
             this.button7.TabIndex = 0;
@@ -209,7 +211,7 @@
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Location = new System.Drawing.Point(310, 113);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(74, 76);
             this.button8.TabIndex = 0;
@@ -223,7 +225,7 @@
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Location = new System.Drawing.Point(372, 471);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(97, 69);
             this.button9.TabIndex = 0;
@@ -237,7 +239,7 @@
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Location = new System.Drawing.Point(793, 448);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(137, 112);
             this.button10.TabIndex = 0;
@@ -251,7 +253,7 @@
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button11.Location = new System.Drawing.Point(682, 161);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(57, 50);
             this.button11.TabIndex = 0;
@@ -265,7 +267,7 @@
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Location = new System.Drawing.Point(416, 560);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(66, 67);
             this.button12.TabIndex = 0;
@@ -279,12 +281,24 @@
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button13.Location = new System.Drawing.Point(946, 486);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(39, 32);
             this.button13.TabIndex = 0;
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.home;
+            this.pictureBox4.Location = new System.Drawing.Point(899, 28);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 10;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // JocMediu2
             // 
@@ -294,6 +308,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1015, 660);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
@@ -318,6 +333,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JocMediu";
             this.Load += new System.EventHandler(this.JocMediu2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -341,5 +357,6 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

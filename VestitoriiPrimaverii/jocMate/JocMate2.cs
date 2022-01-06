@@ -41,10 +41,6 @@ namespace VestitoriiPrimaverii
             this.finished = finished;
         }
 
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
 
         //0
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -140,10 +136,6 @@ namespace VestitoriiPrimaverii
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
@@ -151,9 +143,18 @@ namespace VestitoriiPrimaverii
             axWindowsMediaPlayer1.Ctlcontrols.play();
         }
 
-        private void JocMate2_Load(object sender, EventArgs e)
-        {
 
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathGhioceiAudio;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
         }
     }
 }

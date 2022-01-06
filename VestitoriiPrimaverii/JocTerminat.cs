@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VestitoriiPrimaverii.Resources;
 
 namespace VestitoriiPrimaverii
 {
@@ -22,7 +23,7 @@ namespace VestitoriiPrimaverii
             InitializeComponent();
             if (this.final ==  false)
             {
-                this.button3.Visible = true;
+                this.pictureBox5.Visible = true;
             }
         }
 
@@ -33,24 +34,24 @@ namespace VestitoriiPrimaverii
             InitializeComponent();
             if (this.final == false)
             {
-                this.button3.Visible = true;
+                this.pictureBox5.Visible = true;
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {   
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
             this.Hide();
-            Main main = new Main(this.final);
+            Main main = new Main();
             main.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
             this.formJoc.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.Hide();
             this.nextJoc.Show();

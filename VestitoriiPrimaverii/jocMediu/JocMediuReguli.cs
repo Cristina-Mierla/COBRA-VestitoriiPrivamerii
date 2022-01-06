@@ -41,5 +41,12 @@ namespace VestitoriiPrimaverii
         {
             axWindowsMediaPlayer1.Ctlcontrols.pause();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
     }
 }

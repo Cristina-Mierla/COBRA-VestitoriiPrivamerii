@@ -38,6 +38,8 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -155,7 +157,19 @@
             this.button13.Size = new System.Drawing.Size(158, 148);
             this.button13.TabIndex = 0;
             this.button13.UseVisualStyleBackColor = false;
-            this.button13 .Click += new System.EventHandler(this.button1_Click_1);
+            this.button13.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.home;
+            this.pictureBox4.Location = new System.Drawing.Point(880, 38);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // JocMediu1
             // 
@@ -165,6 +179,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1015, 660);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button10);
@@ -181,6 +196,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JocMediu";
             this.Load += new System.EventHandler(this.JocMediu1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -196,5 +212,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

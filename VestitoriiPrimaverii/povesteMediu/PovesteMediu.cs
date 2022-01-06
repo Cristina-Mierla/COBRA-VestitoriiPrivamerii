@@ -54,5 +54,12 @@ namespace VestitoriiPrimaverii
             }
             return false;
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
     }
 }

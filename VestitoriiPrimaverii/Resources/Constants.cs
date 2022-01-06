@@ -42,6 +42,7 @@ namespace VestitoriiPrimaverii.Resources
 
         public static string pathTachinare = buildAbsolutePath(@"Resources\povesteTachinare\tachinare.mp4");
 
+        public static string pathVictory = buildAbsolutePath(@"Resources\povesteTachinare\victory.mp4");
 
         static string buildAbsolutePath(string path)
         {

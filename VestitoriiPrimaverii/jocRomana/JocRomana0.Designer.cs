@@ -41,12 +41,14 @@ namespace COBRA_VestotoriiPrivamerii
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.SadWinter = new System.Windows.Forms.PictureBox();
             this.SadFall = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ReadFairy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpringFairy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FallFairy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WinterFairy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SadWinter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SadFall)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // ReadFairy
@@ -163,12 +165,25 @@ namespace COBRA_VestotoriiPrivamerii
             this.SadFall.TabStop = false;
             this.SadFall.Visible = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.home;
+            this.pictureBox4.Location = new System.Drawing.Point(1072, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // JocRomana0
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.SadFall);
             this.Controls.Add(this.SadWinter);
             this.Controls.Add(this.richTextBox4);
@@ -189,6 +204,7 @@ namespace COBRA_VestotoriiPrivamerii
             ((System.ComponentModel.ISupportInitialize)(this.WinterFairy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SadWinter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SadFall)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -206,5 +222,6 @@ namespace COBRA_VestotoriiPrivamerii
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.PictureBox SadWinter;
         private System.Windows.Forms.PictureBox SadFall;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

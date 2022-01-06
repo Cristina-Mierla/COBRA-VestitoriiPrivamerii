@@ -1,4 +1,4 @@
-﻿                                                                                 using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -140,6 +140,19 @@ namespace VestitoriiPrimaverii
         {
             axWindowsMediaPlayer1.URL = Constants.pathBuburuzaAudio;
             axWindowsMediaPlayer1.Ctlcontrols.play();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathBuburuzaAudio;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
         }
     }
 }

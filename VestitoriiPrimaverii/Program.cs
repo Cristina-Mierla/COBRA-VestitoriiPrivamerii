@@ -17,7 +17,7 @@ namespace VestitoriiPrimaverii
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main(true, false));
+            Application.Run(new Main());
         }
     }
 }

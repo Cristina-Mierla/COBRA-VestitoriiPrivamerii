@@ -55,5 +55,12 @@ namespace COBRA_VestotoriiPrivamerii
             SoundPlayer splayer = new SoundPlayer(filename);
             splayer.Play();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
     }
 }

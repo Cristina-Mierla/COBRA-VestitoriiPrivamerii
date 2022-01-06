@@ -36,6 +36,7 @@
             this.pictureFrameOmZapada = new System.Windows.Forms.PictureBox();
             this.pictureFrameGhiocel = new System.Windows.Forms.PictureBox();
             this.pictureFramePasariCalatoare = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picturePrimavaraSchimbari)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePasariCalatoare)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureOmZapada)).BeginInit();
@@ -44,6 +45,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureFrameOmZapada)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFrameGhiocel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFramePasariCalatoare)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // picturePrimavaraSchimbari
@@ -135,6 +137,18 @@
             this.pictureFramePasariCalatoare.TabIndex = 7;
             this.pictureFramePasariCalatoare.TabStop = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.home;
+            this.pictureBox4.Location = new System.Drawing.Point(1086, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // PovesteMediu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -142,6 +156,7 @@
             this.BackgroundImage = global::VestitoriiPrimaverii.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.picturePrimavaraSchimbari);
             this.Controls.Add(this.picturePasariCalatoare);
             this.Controls.Add(this.pictureOmZapada);
@@ -162,6 +177,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureFrameOmZapada)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFrameGhiocel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFramePasariCalatoare)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -176,5 +192,6 @@
         private System.Windows.Forms.PictureBox pictureFrameOmZapada;
         private System.Windows.Forms.PictureBox pictureFrameGhiocel;
         private System.Windows.Forms.PictureBox pictureFramePasariCalatoare;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Media;
 using System.Text;
 using System.Windows.Forms;
+using VestitoriiPrimaverii;
 using VestitoriiPrimaverii.Resources;
 
 namespace COBRA_VestotoriiPrivamerii
@@ -53,6 +54,13 @@ namespace COBRA_VestotoriiPrivamerii
             string filename = Constants.pathGhiocelul;
             SoundPlayer splayer = new SoundPlayer(filename);
             splayer.Play();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
         }
     }
 }

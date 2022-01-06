@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Media;
 using VestitoriiPrimaverii.Resources;
+using VestitoriiPrimaverii;
 
 namespace COBRA_VestotoriiPrivamerii
 {
@@ -68,6 +69,13 @@ namespace COBRA_VestotoriiPrivamerii
             next.StartPosition = FormStartPosition.Manual;
             next.ShowDialog();
             this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
         }
     }
 }

@@ -41,12 +41,14 @@ namespace COBRA_VestotoriiPrivamerii
             this.Barza = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.ReadFairy = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SadBarza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SadVrabie)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Randunica)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Vrabie)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReadFairy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBox2
@@ -161,12 +163,25 @@ namespace COBRA_VestotoriiPrivamerii
             this.ReadFairy.TabStop = false;
             this.ReadFairy.Click += new System.EventHandler(this.ReadFairy_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::VestitoriiPrimaverii.Properties.Resources.home;
+            this.pictureBox4.Location = new System.Drawing.Point(1072, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // JocRomana2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.SadBarza);
             this.Controls.Add(this.SadVrabie);
@@ -186,6 +201,7 @@ namespace COBRA_VestotoriiPrivamerii
             ((System.ComponentModel.ISupportInitialize)(this.Vrabie)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barza)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReadFairy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -203,5 +219,6 @@ namespace COBRA_VestotoriiPrivamerii
         private System.Windows.Forms.PictureBox Barza;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox ReadFairy;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

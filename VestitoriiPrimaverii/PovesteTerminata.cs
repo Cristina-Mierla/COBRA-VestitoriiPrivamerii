@@ -16,16 +16,23 @@ namespace VestitoriiPrimaverii.povesteMediu
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            formJoc.Show();
+            this.formJoc.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            this.formPoveste.Show();    
+            Main main = new Main();
+            main.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.formPoveste.Show();
         }
     }
 }
