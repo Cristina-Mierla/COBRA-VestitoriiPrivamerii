@@ -53,8 +53,17 @@ namespace VestitoriiPrimaverii
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            this.nextJoc.Show();
+            if (!final)
+            {
+                this.Hide();
+                this.nextJoc.Show();
+            }
+            else
+            {
+                this.Hide();
+                Main main = new Main();
+                main.Show();
+            }
         }
     }
 }
