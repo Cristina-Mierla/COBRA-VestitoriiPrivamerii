@@ -61,7 +61,7 @@ namespace VestitoriiPrimaverii
             else
             {
                 this.Hide();
-                Main main = new Main();
+                Main main = new Main(false, true);
                 main.Show();
             }
         }
