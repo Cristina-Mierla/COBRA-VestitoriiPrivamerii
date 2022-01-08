@@ -87,7 +87,6 @@ namespace COBRA_VestotoriiPrivamerii
             this.SadVrabie.TabIndex = 28;
             this.SadVrabie.TabStop = false;
             this.SadVrabie.Visible = false;
-            this.SadVrabie.Click += new System.EventHandler(this.SadVrabie_Click);
             // 
             // richTextBox4
             // 
@@ -161,7 +160,6 @@ namespace COBRA_VestotoriiPrivamerii
             this.richTextBox1.Size = new System.Drawing.Size(261, 84);
             this.richTextBox1.TabIndex = 21;
             this.richTextBox1.Text = "Sa auzim ghicitoarea \nClick pe mine";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // ReadFairy
             // 
