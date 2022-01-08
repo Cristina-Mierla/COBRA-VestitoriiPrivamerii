@@ -29,5 +29,10 @@ namespace VestitoriiPrimaverii
             axWindowsMediaPlayer1.URL = Constants.pathTachinare;
             axWindowsMediaPlayer1.Ctlcontrols.play();
         }
+
+        private void PovTachinare_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

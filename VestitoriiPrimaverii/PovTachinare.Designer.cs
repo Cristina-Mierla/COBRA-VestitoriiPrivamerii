@@ -57,6 +57,7 @@ namespace VestitoriiPrimaverii
             this.Name = "PovTachinare";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Poveste Tachinare";
+            this.Load += new System.EventHandler(this.PovTachinare_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 

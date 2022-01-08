@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Media;
-using System.Text;
 using System.Windows.Forms;
 using VestitoriiPrimaverii;
 using VestitoriiPrimaverii.Resources;
+using System.Threading;
 
 namespace COBRA_VestotoriiPrivamerii
 {
@@ -61,6 +57,22 @@ namespace COBRA_VestotoriiPrivamerii
             this.Hide();
             Main main = new Main(3);
             main.Show();
+        }
+
+        private void SadVrabie_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

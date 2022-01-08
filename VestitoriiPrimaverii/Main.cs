@@ -162,5 +162,10 @@ namespace VestitoriiPrimaverii
         {
             axWindowsMediaPlayer1.Ctlcontrols.pause();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
