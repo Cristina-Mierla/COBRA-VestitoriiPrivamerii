@@ -30,7 +30,7 @@ namespace VestitoriiPrimaverii
             if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
             {
                 this.Hide();
-                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocOmSocietate(this.finished), 4);
+                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocOmSocietate0(this.finished), 4);
                 povesteTerminata.Show();
             }
         }

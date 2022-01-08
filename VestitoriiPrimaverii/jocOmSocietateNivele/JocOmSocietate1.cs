@@ -10,47 +10,44 @@ using System.Windows.Forms;
 
 namespace VestitoriiPrimaverii
 {
-    public partial class JocOmSocietate : Form
+    public partial class JocOmSocietate1 : Form
     {
         bool allowClick = false;
         PictureBox firstGuess;
         Random rnd = new Random();
         Timer clickTimer = new Timer();
-        int time = 60;
+        int time = 30;
         Timer timer = new Timer { Interval = 1000 };
 
-        public JocOmSocietate()
+        public JocOmSocietate1()
         {
             InitializeComponent();
         }
-        private bool finished = false;
-        public JocOmSocietate(bool finished)
+
+        public JocOmSocietate1(bool finished)
         {
             InitializeComponent();
             this.finished = finished;
         }
-
+        private bool finished = false;
         private PictureBox[] pictureBoxes
         {
             get { return Controls.OfType<PictureBox>().ToArray(); }
         }
+
         private static IEnumerable<Image> images
         {
             get
             {
                 return new Image[]
                 {
-                    Properties.Resources.conservam_apa,
-                    Properties.Resources.energie_verde,
-                    Properties.Resources.mai_putina_hartie,
-                    Properties.Resources.mancam_legume,
-                    Properties.Resources.mijloace_transport_verzi,
-                    Properties.Resources.planteaza_copaci,
-                    Properties.Resources.strange_gunoaiele,
-                    Properties.Resources.uda_florile
+                Properties.Resources.mai_putina_hartie,
+                Properties.Resources.mancam_legume,
+                Properties.Resources.mijloace_transport_verzi,
                 };
             }
         }
+
 
         private void startGameTimer()
         {
@@ -66,13 +63,13 @@ namespace VestitoriiPrimaverii
                     if (result == DialogResult.Yes)
                     {
                         this.Hide();
-                        JocOmSocietate jocOmSocietate = new JocOmSocietate();
+                        JocOmSocietate1 jocOmSocietate = new JocOmSocietate1();
                         jocOmSocietate.Show();
                     }
                     else
                     {
                         this.Hide();
-                        Main main = new Main(5);  
+                        Main main = new Main();
                         main.Show();
                     }
                 }
@@ -80,14 +77,21 @@ namespace VestitoriiPrimaverii
                 lblTime.Text = "00: " + time.ToString();
             };
         }
-      
+
+
+
+
+
         private void HideImages()
         {
             foreach (var pic in pictureBoxes)
             {
-                pic.Image = Properties.Resources.question;
+                if (pic != pictureBox5)
+                    pic.Image = Properties.Resources.question;
             }
         }
+
+
         private PictureBox getFreeSlot()
         {
             int num;
@@ -95,17 +99,20 @@ namespace VestitoriiPrimaverii
             {
                 num = rnd.Next(0, pictureBoxes.Count());
             }
-            while (pictureBoxes[num].Tag != null);
+            while (pictureBoxes[num].Tag != null || pictureBoxes[num] == pictureBox5);
             return pictureBoxes[num];
         }
+
+
         private void setRandomImages()
         {
             foreach (var image in images)
             {
-            getFreeSlot().Tag = image;
+                getFreeSlot().Tag = image;
                 getFreeSlot().Tag = image;
             }
         }
+
         private void CLICKTIMER_TICK(object sender, EventArgs e)
         {
             HideImages();
@@ -138,20 +145,10 @@ namespace VestitoriiPrimaverii
                 clickTimer.Start();
             }
             firstGuess = null;
-            if (pictureBoxes.Any(p => p.Visible)) return;
+            if (pictureBoxes.Any(p => p.Visible && p != pictureBox5)) return;
             timer.Stop();
-            this.Hide();
-            if (this.finished)
-            {
-                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), this.finished, 5);
-                jocTerminat.Show();
-            }
-            else 
-            {
-                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare(), 5);
-                jocTerminat.Show();
-            }
         }
+
 
         private void startGame(object sender, EventArgs e)
         {
@@ -164,16 +161,30 @@ namespace VestitoriiPrimaverii
             button1.Enabled = false;
         }
 
-        private void JocOmSocietate_Load(object sender, EventArgs e)
+
+
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            JocOmSocietate2 main = new JocOmSocietate2();
+            main.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        //private void pictureBox17_Click(object sender, EventArgs e)
-        //{
-        //    this.Hide();
-        //    Main main = new Main();
-        //    main.Show();
-        //}
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void JocOmSocietate1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }

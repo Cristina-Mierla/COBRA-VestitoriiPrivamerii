@@ -67,5 +67,10 @@ namespace VestitoriiPrimaverii
             Main main = new Main(1);
             main.Show();
         }
+
+        private void JocMediu3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -71,6 +71,24 @@
     <Compile Include="JocOmSocietate.Designer.cs">
       <DependentUpon>JocOmSocietate.cs</DependentUpon>
     </Compile>
+    <Compile Include="jocOmSocietateNivele\JocOmSocietate0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jocOmSocietateNivele\JocOmSocietate0.designer.cs">
+      <DependentUpon>JocOmSocietate0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jocOmSocietateNivele\JocOmSocietate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jocOmSocietateNivele\JocOmSocietate1.designer.cs">
+      <DependentUpon>JocOmSocietate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jocOmSocietateNivele\JocOmSocietate2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jocOmSocietateNivele\JocOmSocietate2.designer.cs">
+      <DependentUpon>JocOmSocietate2.cs</DependentUpon>
+    </Compile>
     <Compile Include="JocTerminat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +204,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JocOmSocietate.resx">
       <DependentUpon>JocOmSocietate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jocOmSocietateNivele\JocOmSocietate0.resx">
+      <DependentUpon>JocOmSocietate0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jocOmSocietateNivele\JocOmSocietate1.resx">
+      <DependentUpon>JocOmSocietate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jocOmSocietateNivele\JocOmSocietate2.resx">
+      <DependentUpon>JocOmSocietate2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JocTerminat.resx">
       <DependentUpon>JocTerminat.cs</DependentUpon>
