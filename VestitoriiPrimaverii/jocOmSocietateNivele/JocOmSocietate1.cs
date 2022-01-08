@@ -171,6 +171,7 @@ namespace VestitoriiPrimaverii
 
         private void button2_Click(object sender, EventArgs e)
         {
+            timer.Stop();
             this.Hide();
             Main main = new Main(4);
             main.Show();
