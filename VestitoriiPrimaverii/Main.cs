@@ -100,7 +100,7 @@ namespace VestitoriiPrimaverii
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var next = new JocOmSocietate0();
+            var next = new JocOmSocietate1();
             this.Hide();
             next.Show();
         }
