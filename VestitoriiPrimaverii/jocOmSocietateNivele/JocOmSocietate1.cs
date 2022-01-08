@@ -178,6 +178,7 @@ namespace VestitoriiPrimaverii
 
         private void button3_Click(object sender, EventArgs e)
         {
+            timer.Stop();
             this.Hide();
             JocOmSocietate1 joc = new JocOmSocietate1();
             joc.Show();
