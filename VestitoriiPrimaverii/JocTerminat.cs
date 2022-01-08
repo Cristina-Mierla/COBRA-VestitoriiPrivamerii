@@ -16,7 +16,8 @@ namespace VestitoriiPrimaverii
         private Form formJoc;
         private Form nextJoc;
         private bool final = false;
-        public JocTerminat(Form fromJoc, Form nextJoc)
+        private int step;
+        public JocTerminat(Form fromJoc, Form nextJoc, int step)
         {
             this.formJoc = fromJoc;
             this.nextJoc = nextJoc;
@@ -25,9 +26,10 @@ namespace VestitoriiPrimaverii
             {
                 this.pictureBox5.Visible = true;
             }
+            this.step = step;
         }
 
-        public JocTerminat(Form fromJoc, bool final)
+        public JocTerminat(Form fromJoc, bool final, int step)
         {
             this.formJoc = fromJoc;
             this.final = final;
@@ -36,12 +38,13 @@ namespace VestitoriiPrimaverii
             {
                 this.pictureBox5.Visible = true;
             }
+            this.step = step;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(step);
             main.Show();
         }
 
@@ -61,7 +64,7 @@ namespace VestitoriiPrimaverii
             else
             {
                 this.Hide();
-                Main main = new Main(false, true);
+                Main main = new Main(true);
                 main.Show();
             }
         }

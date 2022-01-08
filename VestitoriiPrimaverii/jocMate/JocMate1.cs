@@ -151,7 +151,7 @@ namespace VestitoriiPrimaverii
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(2);
             main.Show();
         }
     }

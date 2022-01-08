@@ -116,7 +116,6 @@ namespace COBRA_VestotoriiPrivamerii
             this.richTextBox2.Size = new System.Drawing.Size(138, 54);
             this.richTextBox2.TabIndex = 4;
             this.richTextBox2.Text = "Primavara";
-            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // richTextBox3
             // 
@@ -129,7 +128,6 @@ namespace COBRA_VestotoriiPrivamerii
             this.richTextBox3.Size = new System.Drawing.Size(100, 54);
             this.richTextBox3.TabIndex = 5;
             this.richTextBox3.Text = "Toamna";
-            this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
             // 
             // richTextBox4
             // 

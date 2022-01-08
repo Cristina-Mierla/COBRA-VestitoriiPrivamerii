@@ -44,6 +44,7 @@ namespace VestitoriiPrimaverii.Resources
 
         public static string pathVictory = buildAbsolutePath(@"Resources\povesteTachinare\victory.mp4");
 
+        public static bool finishedGame = false;
         static string buildAbsolutePath(string path)
         {
             string absolutePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);

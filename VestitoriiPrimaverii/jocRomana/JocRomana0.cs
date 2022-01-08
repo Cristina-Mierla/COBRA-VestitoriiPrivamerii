@@ -46,16 +46,6 @@ namespace COBRA_VestotoriiPrivamerii
             SadFall.Visible = true;
         }
 
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void WinterFairy_Click(object sender, EventArgs e)
         {
             SadWinter.Visible = true;
@@ -74,7 +64,7 @@ namespace COBRA_VestotoriiPrivamerii
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(3);
             main.Show();
         }
     }

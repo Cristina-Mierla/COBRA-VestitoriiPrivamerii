@@ -41,6 +41,71 @@ namespace VestitoriiPrimaverii
                 this.pictureBox4.Visible = true;
                 this.pictureBox5.Visible = true;
                 this.pictureBox7.Visible = true;
+                this.pictureBox8.Visible = false;
+                this.pictureBox9.Visible = false;
+                this.pictureBox10.Visible = false;
+                this.pictureBox11.Visible = false;
+            }
+        }
+
+        public Main(int step)
+        {
+            InitializeComponent();
+            this.label1.Text = "Salutare!\nHaide sa ne jucam si sa invatam impreuna. Apasa una dintre imaginile de mai jos pentru a vedea ce suprize ti - am pregatit eu si prietenii mei.\nCe fericita sunt cand vine primvara!";
+            if (Constants.finishedGame == false)
+            {
+                if (step == 1)
+                {
+                    this.pictureBox4.Visible = true;
+                }
+                if (step == 2)
+                {
+                    this.pictureBox4.Visible = true;
+                    this.pictureBox2.Visible = true;
+                    this.pictureBox8.Visible = false;
+                }
+                if (step == 3)
+                {
+                    this.pictureBox4.Visible = true;
+                    this.pictureBox2.Visible = true;
+                    this.pictureBox3.Visible = true;
+                    this.pictureBox8.Visible = false;
+                    this.pictureBox9.Visible = false;
+                }
+                if (step == 4)
+                {
+                    this.pictureBox4.Visible = true;
+                    this.pictureBox2.Visible = true;
+                    this.pictureBox3.Visible = true;
+                    this.pictureBox7.Visible = true;
+                    this.pictureBox8.Visible = false;
+                    this.pictureBox9.Visible = false;
+                    this.pictureBox10.Visible = false;
+                }
+                if (step == 5)
+                {
+                    this.pictureBox4.Visible = true;
+                    this.pictureBox2.Visible = true;
+                    this.pictureBox3.Visible = true;
+                    this.pictureBox7.Visible = true;
+                    this.pictureBox5.Visible = true;
+                    this.pictureBox8.Visible = false;
+                    this.pictureBox9.Visible = false;
+                    this.pictureBox10.Visible = false;
+                    this.pictureBox11.Visible = false;
+                }
+            }
+            else
+            {
+                this.pictureBox2.Visible = true;
+                this.pictureBox3.Visible = true;
+                this.pictureBox4.Visible = true;
+                this.pictureBox5.Visible = true;
+                this.pictureBox7.Visible = true;
+                this.pictureBox8.Visible = false;
+                this.pictureBox9.Visible = false;
+                this.pictureBox10.Visible = false;
+                this.pictureBox11.Visible = false;
             }
         }
 
@@ -96,13 +161,6 @@ namespace VestitoriiPrimaverii
         private void Main_VisibleChanged(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.Ctlcontrols.pause();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var next = new PovesteMediu();
-            this.Hide();
-            next.Show();
         }
     }
 }

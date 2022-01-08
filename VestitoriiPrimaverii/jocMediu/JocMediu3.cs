@@ -41,12 +41,12 @@ namespace VestitoriiPrimaverii
             this.Close();
             if (finished)
             {
-                JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), this.finished);
+                JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), this.finished, 2);
                 jocTerminat.Show();
             }
             else
             {
-                JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), new PovesteMate());
+                JocTerminat jocTerminat = new JocTerminat(new JocMediuReguli(), new PovesteMate(), 2);
                 jocTerminat.Show();
             }
         }
@@ -64,7 +64,7 @@ namespace VestitoriiPrimaverii
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(1);
             main.Show();
         }
     }

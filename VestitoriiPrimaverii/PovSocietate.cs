@@ -17,7 +17,6 @@ namespace VestitoriiPrimaverii
         public PovSocietate()
         {
             InitializeComponent();
-            axWindowsMediaPlayer1.URL = Constants.pathPovesteSocietate;
         }
         private bool finished = false;
         public PovSocietate(bool finished)
@@ -31,9 +30,15 @@ namespace VestitoriiPrimaverii
             if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
             {
                 this.Hide();
-                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocOmSocietate(this.finished));
+                PovesteTerminata povesteTerminata = new PovesteTerminata(this, new JocOmSocietate(this.finished), 4);
                 povesteTerminata.Show();
             }
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = Constants.pathPovesteSocietate;
+            axWindowsMediaPlayer1.Ctlcontrols.play();
         }
     }
 }

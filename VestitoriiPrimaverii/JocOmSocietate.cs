@@ -72,7 +72,7 @@ namespace VestitoriiPrimaverii
                     else
                     {
                         this.Hide();
-                        Main main = new Main();  
+                        Main main = new Main(5);  
                         main.Show();
                     }
                 }
@@ -143,12 +143,12 @@ namespace VestitoriiPrimaverii
             this.Hide();
             if (this.finished)
             {
-                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), this.finished);
+                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), this.finished, 5);
                 jocTerminat.Show();
             }
             else 
             {
-                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare());
+                JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare(), 5);
                 jocTerminat.Show();
             }
         }

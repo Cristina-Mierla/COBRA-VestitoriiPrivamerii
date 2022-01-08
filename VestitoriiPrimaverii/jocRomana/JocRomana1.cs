@@ -59,7 +59,7 @@ namespace COBRA_VestotoriiPrivamerii
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(3);
             main.Show();
         }
     }

@@ -5,14 +5,15 @@ namespace VestitoriiPrimaverii.povesteMediu
 {
     public partial class PovesteTerminata : Form
     {
-
+        private int step;
         private Form formPoveste;
         private Form formJoc;
 
-        public PovesteTerminata(Form formPoveste, Form formJoc)
+        public PovesteTerminata(Form formPoveste, Form formJoc, int step)
         {
             this.formPoveste = formPoveste;
             this.formJoc = formJoc;
+            this.step = step;
             InitializeComponent();
         }
 
@@ -25,7 +26,7 @@ namespace VestitoriiPrimaverii.povesteMediu
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(step);
             main.Show();
         }
 

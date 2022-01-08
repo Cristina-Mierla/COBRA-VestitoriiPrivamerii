@@ -39,12 +39,12 @@ namespace COBRA_VestotoriiPrivamerii
             this.Hide();
             if (finished)
             {
-                JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), this.finished);
+                JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), this.finished, 4);
                 jocTerminat.Show();
             }
             else
             {
-                JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), new PovSocietate());
+                JocTerminat jocTerminat = new JocTerminat(new JocRomana0(), new PovSocietate(), 4);
                 jocTerminat.Show();
             }
         }
@@ -59,7 +59,7 @@ namespace COBRA_VestotoriiPrivamerii
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Main main = new Main();
+            Main main = new Main(3);
             main.Show();
         }
     }
