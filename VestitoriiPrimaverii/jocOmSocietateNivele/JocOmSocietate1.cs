@@ -18,6 +18,7 @@ namespace VestitoriiPrimaverii
         Timer clickTimer = new Timer();
         int time = 30;
         Timer timer = new Timer { Interval = 1000 };
+        bool stopMessage = false;
 
         public JocOmSocietate1()
         {
@@ -55,7 +56,7 @@ namespace VestitoriiPrimaverii
             timer.Tick += delegate
             {
                 time--;
-                if (time < 0)
+                if (time < 0 && stopMessage == false)
                 {
                     timer.Stop();
                     MessageBoxButtons buttons = MessageBoxButtons.YesNo;
@@ -147,22 +148,9 @@ namespace VestitoriiPrimaverii
             firstGuess = null;
             if (pictureBoxes.Any(p => p.Visible && p != pictureBox5)) return;
             timer.Stop();
+            pictureBox5.Visible = true;
+            stopMessage = true;
         }
-
-
-        private void startGame(object sender, EventArgs e)
-        {
-            allowClick = true;
-            setRandomImages();
-            HideImages();
-            startGameTimer();
-            clickTimer.Interval = 1000;
-            clickTimer.Tick += CLICKTIMER_TICK;
-            button1.Enabled = false;
-        }
-
-
-
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
@@ -171,19 +159,28 @@ namespace VestitoriiPrimaverii
             main.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void JocOmSocietate1_Load(object sender, EventArgs e)
         {
+            allowClick = true;
+            setRandomImages();
+            HideImages();
+            startGameTimer();
+            clickTimer.Interval = 1000;
+            clickTimer.Tick += CLICKTIMER_TICK;
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main(4);
+            main.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            JocOmSocietate1 joc = new JocOmSocietate1();
+            joc.Show();
         }
     }
 

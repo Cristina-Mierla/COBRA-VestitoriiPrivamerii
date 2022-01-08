@@ -93,6 +93,16 @@ namespace VestitoriiPrimaverii.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap confetti {
+            get {
+                object obj = ResourceManager.GetObject("confetti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap conservam_apa {
             get {
                 object obj = ResourceManager.GetObject("conservam_apa", resourceCulture);

@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace VestitoriiPrimaverii
@@ -18,6 +17,7 @@ namespace VestitoriiPrimaverii
         Timer clickTimer = new Timer();
         int time = 20;
         Timer timer = new Timer { Interval = 1000 };
+        bool stopMessage = false;
 
         public JocOmSocietate0()
         {
@@ -47,14 +47,13 @@ namespace VestitoriiPrimaverii
             }
         }
 
-
         private void startGameTimer()
         {
             timer.Start();
             timer.Tick += delegate
             {
                 time--;
-                if (time < 0)
+                if (time < 0 && stopMessage == false)
                 {
                     timer.Stop();
                     MessageBoxButtons buttons = MessageBoxButtons.YesNo;
@@ -77,10 +76,6 @@ namespace VestitoriiPrimaverii
             };
         }
 
-
-
-
-
         private void HideImages()
         {
             foreach (var pic in pictureBoxes)
@@ -89,7 +84,6 @@ namespace VestitoriiPrimaverii
                     pic.Image = Properties.Resources.question;
             }
         }
-
 
         private PictureBox getFreeSlot()
         {
@@ -101,7 +95,6 @@ namespace VestitoriiPrimaverii
             while (pictureBoxes[num].Tag != null || pictureBoxes[num] == pictureBox5);
             return pictureBoxes[num];
         }
-
 
         private void setRandomImages()
         {
@@ -146,22 +139,10 @@ namespace VestitoriiPrimaverii
             firstGuess = null;
             if (pictureBoxes.Any(p => p.Visible && p != pictureBox5)) return;
             timer.Stop();
+
+            pictureBox5.Visible = true;
+            stopMessage = true;
         }
-
-
-        private void startGame(object sender, EventArgs e)
-        {
-            allowClick = true;
-            setRandomImages();
-            HideImages();
-            startGameTimer();
-            clickTimer.Interval = 1000;
-            clickTimer.Tick += CLICKTIMER_TICK;
-            button1.Enabled = false;
-        }
-
-
-
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
@@ -171,19 +152,35 @@ namespace VestitoriiPrimaverii
             main.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void JocOmSocietate0_Load(object sender, EventArgs e)
         {
+            allowClick = true;
+            setRandomImages();
+            HideImages();
+            startGameTimer();
+            clickTimer.Interval = 1000;
+            clickTimer.Tick += CLICKTIMER_TICK;
+        }
 
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main(4);
+            main.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main(4);
+            main.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            JocOmSocietate0 joc = new JocOmSocietate0();
+            joc.Show();
         }
     }
 

@@ -124,11 +124,11 @@
   <data name="mancam_legume" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mancam_legume.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconRomana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconRomana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="speak2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speak2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="glitter-sparkle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\glitter-sparkle.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,14 +136,23 @@
   <data name="gifFloriInvie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gifFloriInvie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mijloace_transport_verzi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mijloace_transport_verzi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="conservam_apa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\conservam_apa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="primavaraVietati" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\primavaraVietati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconMed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="glitter-flow-gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glitter-flow-gold.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="johnny-bravo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\johnny-bravo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +175,8 @@
   <data name="felicitari-excited" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\felicitari-excited.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bubu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bubu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="glitter-sparkle (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\glitter-sparkle (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -177,9 +186,6 @@
   </data>
   <data name="planteaza_copaci" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\planteaza_copaci.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glitter-flow-gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\glitter-flow-gold.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="seTopesteZapada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seTopesteZapada.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +211,8 @@
   <data name="craiasaPrimaverii" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\craiasaPrimaverii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mijloace_transport_verzi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mijloace_transport_verzi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconRomana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconRomana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="glitter-stars" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\glitter-stars.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,11 +220,8 @@
   <data name="uda_florile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\uda_florile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="replay" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\replay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bubu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bubu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconMate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMate.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,10 +232,10 @@
   <data name="pasariCalatoare" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pasariCalatoare.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="replay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\replay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="confetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\confetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

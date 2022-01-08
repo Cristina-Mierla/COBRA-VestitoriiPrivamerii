@@ -18,6 +18,7 @@ namespace VestitoriiPrimaverii
         Timer clickTimer = new Timer();
         int time = 40;
         Timer timer = new Timer { Interval = 1000 };
+        bool stopMessage = false;
 
         public JocOmSocietate2()
         {
@@ -56,7 +57,7 @@ namespace VestitoriiPrimaverii
             timer.Tick += delegate
             {
                 time--;
-                if (time < 0)
+                if (time < 0 && stopMessage == false)
                 {
                     timer.Stop();
                     MessageBoxButtons buttons = MessageBoxButtons.YesNo;
@@ -78,10 +79,6 @@ namespace VestitoriiPrimaverii
                 lblTime.Text = "00: " + time.ToString();
             };
         }
-
-
-
-
 
         private void HideImages()
         {
@@ -148,10 +145,18 @@ namespace VestitoriiPrimaverii
             firstGuess = null;
             if (pictureBoxes.Any(p => p.Visible && p != pictureBox5)) return;
             timer.Stop();
+            this.pictureBox5.Visible = true;
+            stopMessage = true;
         }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            JocTerminat jocTerminat = new JocTerminat(new JocOmSocietate(), new PovTachinare(), 5);
+            jocTerminat.Show();
+        }
 
-        private void startGame(object sender, EventArgs e)
+        private void JocOmSocietate2_Load(object sender, EventArgs e)
         {
             allowClick = true;
             setRandomImages();
@@ -159,29 +164,20 @@ namespace VestitoriiPrimaverii
             startGameTimer();
             clickTimer.Interval = 1000;
             clickTimer.Tick += CLICKTIMER_TICK;
-            button1.Enabled = false;
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            PovTachinare main = new PovTachinare();
+            Main main = new Main(4);
             main.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void JocOmSocietate2_Load(object sender, EventArgs e)
-        {
-
+            this.Hide();
+            JocOmSocietate2 joc = new JocOmSocietate2();
+            joc.Show();
         }
     }
 
