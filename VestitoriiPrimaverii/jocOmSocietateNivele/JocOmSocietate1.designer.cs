@@ -183,6 +183,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JocOmSocietate1";
             this.Load += new System.EventHandler(this.JocOmSocietate1_Load);
+            this.Enter += new System.EventHandler(this.JocOmSocietate1_Enter);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

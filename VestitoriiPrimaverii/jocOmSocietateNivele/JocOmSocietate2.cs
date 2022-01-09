@@ -19,6 +19,7 @@ namespace VestitoriiPrimaverii
         int time = 40;
         Timer timer = new Timer { Interval = 1000 };
         bool stopMessage = false;
+        bool firstTime = true;
 
         public JocOmSocietate2()
         {
@@ -71,7 +72,7 @@ namespace VestitoriiPrimaverii
                     else
                     {
                         this.Hide();
-                        Main main = new Main();
+                        Main main = new Main(4);
                         main.Show();
                     }
                 }
@@ -120,6 +121,11 @@ namespace VestitoriiPrimaverii
 
         private void clickImage(object sender, EventArgs e)
         {
+            if (firstTime == true)
+            {
+                startGameTimer();
+                firstTime = false;
+            }
             if (!allowClick) return;
             var pic = (PictureBox)sender;
             if (firstGuess == null)
@@ -161,7 +167,6 @@ namespace VestitoriiPrimaverii
             allowClick = true;
             setRandomImages();
             HideImages();
-            startGameTimer();
             clickTimer.Interval = 1000;
             clickTimer.Tick += CLICKTIMER_TICK;
         }
